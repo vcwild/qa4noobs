@@ -6,22 +6,19 @@ A testagem possue duas técnicas:
 
 <br><br>
 
-## Tipos de Teste:    
+## - Caixa Preta vs Caixa Branca:
 
-### -  **Teste de Caixa Branca**
+ - **Caixa-Preta:**
+  
+     - Foco principal na validação de regras de negócio **funcionais**.
+     - Provém abstração ao código e foca no comportamento do sistema.
+     - Facilita a comunicação de testes entre módulos.
+  
+<br>
 
-Técnica em que a estrutra interna, design e código são testados para verificar o fluxo input-output e melhorar o design, usabilidade e segurança.  
+- **Caixa-Branca:**
 
-Aqui, o código é visivel aos testers, também podendo ser chamado de teste da Caixa Transparente, Caixa Aberta, Caixa de vidro etc.  
+     - Valida estrutura **interna** e funcionamento de um código.
+     - Conhecimento da linguagem de programação utilizada é essencial.
+     - Não facilita comunicação  de testes entre módulos.
 
-  Objetivos:
->- Buracos na segurança interna
->- Paths quebrados ou mal estruturados no processo de coding
->- O fluxo de inputs especificos pelo código
->- Output esperado
->- A funcionalidade de loops condicionais
->- Testagem de cada statement, objeto e função individualmente 
-
-### - **Teste de Caixa Cinza**
-
-O teste de Caixa Cinza é uma técnica que testa aplicação ou produto com conhecimento parcial da estrutura interna da aplicação. O propósito do teste caixa cinza é procurar e identificar os defeitos devido a código impróprio ou uso impróprio de aplicações
