@@ -64,3 +64,5 @@ As 7 ferramentas de qualidade:
 [AgileTesters](https://agiletesters.com.br/)
 
 [Locust.io](https://locust.io/)
+
+[Kotlin](https://kotlinlang.org/docs/getting-started.html#install-kotlin)
