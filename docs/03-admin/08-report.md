@@ -1,11 +1,14 @@
-# **Elaboração de Relatório**
+# Elaboração de Relatório
 
+Elaborar um relatório é uma tarefa que exige muita atenção e cuidado, pois é um documento que deve ser claro e objetivo, e que deve conter informações relevantes para o leitor.
 
-## *O que é um Bug?*
+## O que é um Bug?
 
-Um bug é a consequencia/resultado de uma falha no código.
+Um bug é a consequencia/resultado de uma falha no código. Uma falha no código pode ter sido gerada por um erro de programação, ou por um erro de design. Geralmente erros no código acontecem por falta de conhecimento do programador, ou por falta de atenção.
 
-## *Defeitos na Testagem de Software*
+É esperado que o software desenvolvido contenha uma quantidade razoável de bugs, pois é impossível prever todos os cenários possíveis de uso da aplicação. Porém, quanto mais bugs forem encontrados de forma tardia, mais tempo será gasto para corrigi-los, e mais tempo será gasto para testar a aplicação.
+
+## Defeitos na Testagem de Software
 
 Um defeito é uma variação ou desvio da aplicação de software em relação as regras de negócio ou requerimentos de business originais.
 
@@ -13,7 +16,7 @@ Um defeito de software consiste em um erro no processo de codificação, o que c
 
 Estes dois termos possuem tênue diferença, e na indústria ambos são falhas que precisam ser corrigidas, sendo usadas de forma intercambeável por alguns times
 
-## *Relatório de Bugs na Testagem de Software*
+## Relatório de Bugs na Testagem de Software
 
 Um relatório de bugs é um documento detalhado acerca de bugs encontrados na aplicação, contendo cada detalhe como descrição, data em que foi localizado, nome do testers que o encontrou, nome do dev que corrigiu, etc. Estes relatórios auxiliam a identificar bugs similares no futuro, de forma a evitá-los.
 
@@ -46,9 +49,7 @@ Outros elementos necessários para o relatório são:
 - Logs da aplicação/servidor
 - Qualquer feature de seleção/configuração específica, caso envolvida quando o bug ocorreu?
 
-
-
-# *Processo de Gerenciamento dos Defeitos*
+## Processo de Gerenciamento dos Defeitos
 
 Sistemática para identificação e correção dos bugs. O ciclo de gerenciamento dos defeitos contém os seguintes passos:
 
@@ -59,38 +60,26 @@ Sistemática para identificação e correção dos bugs. O ciclo de gerenciament
  5. Encerramento do Defeito
  6. Relatório de Defeitos ao fim do projeto.
 
-<br>
-
 <img src="https://www.guru99.com/images/TestManagement/testmanagement_article_4_4.png" alt="Ciclo de Gerenciamento de Defeitos">
 
-<br>
-
-##  *Descoberta:*
-
-<BR>
+### Descoberta
 
 Nesta fase os times devem descobrir tantos defeitos quanto possível antes que o usuário final o faça. Um defeito é declarado como encontrado, e tem seu status alterado para "Aceito" uma vez reconhecido e aceito por desenvolvedores.
 
-<br>
-
 <img src="https://www.guru99.com/images/TestManagement/testmanagement_article_4_5.png" alt="Fluxograma Detecção e Reconhecimento de Defeitos">
 
-<br>
-
-## *Categorização:*
-
-<br>
+### Categorização
 
 A categorização de defeitos auxilia os desenvolvedores de software a priorizar suas tarefas de acordo com sua prioridade.
 
- - Crítica: Os defeitos que precisam ser corrigods **imediatamente** uma vez que podem causar grandes danos ao produto.
- - Alta: O defeito impacta as principais features do produto.
- - Média: O defeito causa desvios mínimos nas regras de negócio do poduto.
- - Baixa: O defeito em pouco afeta a operação do produto.
+- Crítica: Os defeitos que precisam ser corrigods **imediatamente** uma vez que podem causar grandes danos ao produto.
+- Alta: O defeito impacta as principais features do produto.
+- Média: O defeito causa desvios mínimos nas regras de negócio do poduto.
+- Baixa: O defeito em pouco afeta a operação do produto.
 
-## *Resolução:*
+### Resolução
 
-A resolução de defeitos na testagem de software é um processo que corrige desvios passo a passo, iniciando-se com a designação de defeitos para desenvolvedores, que por sua vez inserem os defeitos em um cronograma de acordo com sua prioridade.  
+A resolução de defeitos na testagem de software é um processo que corrige desvios passo a passo, iniciando-se com a designação de defeitos para desenvolvedores, que por sua vez inserem os defeitos em um cronograma de acordo com sua prioridade.
 
 Uma vez que a correção seja finalizada, os desenvolvedores enviam um relatório ao Gerente de Testes, o processo auxilia na correção e registro dos defeitos.
 
@@ -99,15 +88,15 @@ Uma vez que a correção seja finalizada, os desenvolvedores enviam um relatóri
 - Correção do Defeito: Enquanto o time de desenvolvimento corrige os defeitos, o Gerente de Testes registra o processo.
 - Relatório da Resolução: Envio do relatório sobre a correção de defeito por parte dos desenvolvedores.
 
-## *Verificação:*
+### Verificação
 
 Após o time de desenvolvimento ter corrigido e reportado o  defeito, a equipe de testes  verifica que os problemas foram realmente corrigidos.
 
-## *Encerramento:*
+### Encerramento
 
-Uma vez que o defeito tenha sido resolvido e verificado, o status é alterado para *"Encerrado"*. 
+Uma vez que o defeito tenha sido resolvido e verificado, o status é alterado para *"Encerrado"*.
 
-# *Relatório de Defeitos*
+## Relatório de Defeitos
 
 É um processo em que gerentes de testes preparam e enviam o relatório de defeitos para que o time de gerência provenha feedback no processo de gestão dos defeitos, bem como o status destes.
 
@@ -115,12 +104,7 @@ Então, o time de gerência checa o relatório, podendo enviar o feedback ou pro
 
 O conselho de administração tem o direito de saber o status dos defeitos, uma vez que devem compreender o processo de gestão para auxiliar no projeto. Portanto, deve-se reportar a eles a situação atual dos defeitos, acatando feedback.
 
-## *Como medir e avaliar a qualidade da execução de testes*
+### Como medir e avaliar a qualidade da execução de testes
 
 - Taxa de Rejeição dos Defeitos: (Número de defeitos rejeitados/Número total de defeitos)*100
 - Taxa de Vazamento dos Defeitos: (Número de defeitos não detectados/Total de defeitos do software)*100
-
-
-
-
-
