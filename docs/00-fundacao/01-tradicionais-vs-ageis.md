@@ -10,7 +10,7 @@ Já os testes ágeis são baseados em um modelo de ciclo de vida iterativo e inc
 
 1. Teste demonstra a presença de defeitos, entretando, não garante sua inexistência.
 2. Teste exaustivo é impossível: Devemos levar em consideração os riscos e prioridades da aplicação, de forma a pegar dos valores possíveis e provar a maior cobertura de testes.
-3. Testes devem iniciais o quanto antes, uma vez que erros encontrados tarde custam mais para serem corrigidos
+3. Testes devem iniciar o quanto antes, uma vez que erros encontrados tarde custam mais para serem corrigidos
 4. Agrupamento de Defeitos
 5. Paradoxo do Pesticida
 6. Teste depende do contexto
@@ -21,7 +21,7 @@ Já os testes ágeis são baseados em um modelo de ciclo de vida iterativo e inc
 O foco do QA ágil é:
 
 - Prevenção de bugs, para que sejam identificados em fases iniciais, para redução de custos e esforços.
-- Garante que as expectativas do clientes sjam claras.
+- Garante que as expectativas do clientes sejam claras.
 - Aceita novas ideias.
 - O Tester é parte de um time.
 - A qualidade é responsabilidade do Time.
