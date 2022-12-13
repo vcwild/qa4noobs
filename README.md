@@ -26,7 +26,7 @@
 
  <!-- ABOUT THE PROJECT -->
 
-## Sobre o Projeto
+## ❓ Sobre o Projeto
 
 Qualidade de software é uma área de conhecimento que envolve a garantia de que um produto de software atenda aos requisitos, seja confiável, eficiente e eficaz. A qualidade de software é um atributo que pode ser avaliado por meio de testes, que são atividades que visam verificar se um produto de software atende aos requisitos e se está livre de defeitos.
 
@@ -34,7 +34,7 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 
 <!-- ROADMAP OF PROJECT -->
 
-## Roadmap
+## ⛕ Roadmap
 
 - [Fundamentos de teste](src/01-FOUNDATIONS.md)
   - [Fundamentos do teste de software](docs/%231-Fundamentos-do-Teste-de-Software.md)
@@ -48,7 +48,7 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 
 <!-- CONTRIBUTING -->
 
-## Como contribuir
+## 🤝 Como contribuir
 
 Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
 são **extremamente apreciadas**
@@ -59,10 +59,14 @@ são **extremamente apreciadas**
 4. Realize o Push no Branch (`git push origin feature/featureBraba`)
 5. Abra um Pull Request
 
-## Autores
+## 💁‍♂️ Autores
 
 - **Victor Manoel** - _Software Quality Engineer_ - [@TTVKeeabo](https://www.twitch.tv/keeabo)
 - **Victor Wildner** - _Software Engineer_ - [@vcwild](https://twitter.com/vcwild)
+
+## 🏷️ Licença
+
+O projeto está sob a licença AGPL-3.0. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
