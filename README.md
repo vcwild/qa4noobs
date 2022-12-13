@@ -16,7 +16,6 @@
   <img src=".github/qa.gif" alt="Imagem de QA" width="150">
   </br>
   <img src="https://img.shields.io/github/workflow/status/vcwild/qa4noobs/deploy?style=flat-square&color=blueviolet" alt="build" />
-
   <img src="https://img.shields.io/badge/topics-42-blueviolet?style=flat-square" alt="topics" />
   <img src="https://img.shields.io/tokei/lines/github/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="topics" />
   <img src="https://img.shields.io/github/license/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="license" />
