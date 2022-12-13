@@ -1,5 +1,9 @@
 # **Fundamentos do Teste de Software**
 
+Bem vindo ao 4noobs de testes!
+
+Nessas primeiras etapas vamos falar sobre os fundamentos do teste de software e como ele é realizado.
+
 ## *Erro, Defeito e Falha*
 
 - Erro: Ação humana que produz resultado incorreto.
@@ -10,9 +14,9 @@ Uma pessoa comete um **erro**, que cria um **defeito no software**, que pode, ou
 
 ## *Técnicas de Testes Funcionais*
 
-<br>
+Vamos explorar algumas das principais técnicas de testes funcionais.
 
-- Partição de Equivalência:
+### Partição de Equivalência
 
 Técnica de teste que baseia-se em requisitos na documentação.
 
@@ -39,7 +43,7 @@ O particionamento de equivalência nos orienta a escolher um subconjunto de test
 
 Ao trabalhar com partições verificamos uma máxima que dita:
 
-    "Qualquer valor dentro de uma partição, é tão bom quanto qualquer outro" 
+    "Qualquer valor dentro de uma partição, é tão bom quanto qualquer outro"
 
 Portanto, dados que pertençam a mesma partição devem ser tratados igualmente pelo sistema, ou seja, produzirão o mesmo resultado. Desta forma, qualquer valor dentro da classe de equivalência, em termos de testes, equivale a qualquer outro.
 
@@ -63,7 +67,7 @@ Subtende-se que dentra da faixa de valores 0-15, independentemente de qual selec
 
 Não faz-se necessário o teste de todos os valores possíveis, a cobertura é suficiente ao escolher um dentro de cada partição.
 
-- Análise do Valor Limite:
+### Análise do Valor Limite
 
 Parte do princípio que o comportamento na borda de uma partição tem maior probabilidade de apresentar erro.
 
@@ -87,7 +91,7 @@ No exemplo se sabemos que de 0-15 não deve trabalhar, na tabela estabelecemos q
 
 Esta combinação pode, aquela não, é uma representação visual para aauxiliar a documentar as regras que o sistema segue.
 
-- Transição entre Status:
+### Transição entre Status
 
 Baseia-se que um sistema pode exibir diferentes comportamentos a depender de seu status atual ou eventos anteriores. A elaboração de um diagrama permite que o teste  visualize os status, ou seja as transições, entrada de dados e eventos que acionam as ações
 
@@ -95,6 +99,6 @@ A técnica ajuda a identificar possíveis transações inválidas, pois ao saber
 
 Uma pessoa pode estar apta a trabalhar, e passar a tornar-se inapta, inválida.
 
-- Técnicas baseadas na experiência:
+### Técnicas baseadas na experiência
 
 São aquelas em que os testes são derivados das habilidades e experiência do testador, a capacidade de visualização individuals do profissional, com base em seus trabalhos desenvolvidos no passado, que o possibilita a encontrar erros e falhas que talvez as outras não descubram.
