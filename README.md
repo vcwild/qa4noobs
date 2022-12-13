@@ -2,19 +2,21 @@
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src=".github/header_4noobs.svg">
+    <img src="docs/.vuepress/public/images/header_4noobs.svg">
   </a>
 </p>
 
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">Quality Engineering 4noobs</h2>
+  <h2 align="center">Curso de QA da He4rt Developers</h2>
 
   <h1 align="center">
 
   <img src=".github/qa.gif" alt="Imagem de QA" width="150">
   </br>
+  <img src="https://img.shields.io/github/workflow/status/vcwild/qa4noobs/complete-checking?style=flat-square&color=blueviolet" alt="build" />
+
   <img src="https://img.shields.io/badge/topics-42-blueviolet?style=flat-square" alt="topics" />
   <img src="https://img.shields.io/tokei/lines/github/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="topics" />
   <img src="https://img.shields.io/github/license/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="license" />
@@ -22,11 +24,11 @@
 </h1>
 
   <p align="center">
-    <br />
-    <a href="#ROADMAP"><strong>Veja o Roadmap »</strong></a>
+    <a href="https://vcwild.github.io/qa4noobs/" > <strong>Veja o projeto na íntegra »</strong></a>
     <br />
     <br />
     <a href="#about">Sobre</a> •
+    <a href="#ROADMAP">Roadmap •</a>
     <a href="#contribute">Contribua</a> •
     <a href="#author">Autores</a> •
     <a href="#license">Licença</a>
@@ -137,7 +139,7 @@ são **extremamente apreciadas**
 ## 💁‍♂️ Autores <a id="author"></a>
 
 - **Victor Manoel** - _Software Quality Engineer_ - [@TTVKeeabo](https://www.twitch.tv/keeabo)
-- **Victor Wildner** - _Software Engineer_ - [@vcwild](https://twitter.com/vcwild)
+- **Victor Wildner** - _Software Quality Engineer_ - [@vcwild](https://twitter.com/vcwild)
 
 ## 🏷️ Licença <a id="license"></a>
 
@@ -147,6 +149,6 @@ O projeto está sob a licença AGPL-3.0. Veja o arquivo [LICENSE](LICENSE) para 
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src=".github/footer_4noobs.svg" width="380">
+    <img src="docs/.vuepress/public/images/footer_4noobs.svg" width="380">
   </a>
 </p>
