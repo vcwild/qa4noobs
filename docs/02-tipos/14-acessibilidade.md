@@ -1,20 +1,19 @@
-## **Teste de Acessibilidade** 
+## Teste de Acessibilidade
 
-É definido como um tipo de testagem aplicado para garantir que a aplicação em voga é usável por pessoas com condições como surdez, daltonismo, idade avançada, etc. 
+É definido como um tipo de testagem aplicado para garantir que a aplicação em voga é usável por pessoas com condições como surdez, daltonismo, idade avançada, etc.
 
 É um subgrupo do Teste de Usabilidade.
 
 Estas pessoas fazem uso de assistentes, que os auxiliam a operar um produto de software, tais como:
 
-1.  Reconhecimento de Voz: Converte a língua falada em texto, que funciona como input para o computador;
-2.  Software de Leitura de Tela: Utilizado para ler o texto em exposição na tela;
-3.  Software de Aumento de Tela: Utilizado para aumentar o monitor, e deixar a leitura mais confortável para usuários com deficiência visual;
-4.  Teclado Adaptado: Feito para usuários com problemas motores, de forma a tornar seu uso mais fácil;
+1. Reconhecimento de Voz: Converte a língua falada em texto, que funciona como input para o computador;
+2. Software de Leitura de Tela: Utilizado para ler o texto em exposição na tela;
+3. Software de Aumento de Tela: Utilizado para aumentar o monitor, e deixar a leitura mais confortável para usuários com deficiência visual;
+4. Teclado Adaptado: Feito para usuários com problemas motores, de forma a tornar seu uso mais fácil;
 
+## Motivos para Aplicar o Teste de Acessibilidade
 
-## *Motivos para Aplicar o Teste de Acessibilidade:*
-
-- Atender ao Mercado: 
+- Atender ao Mercado:
 Com um quantidade expressiva de usuários com condições limitantes, o teste é aplicado para solucionar quaisquer impedividos de acessibilidade, sendo uma boa prática a inclusão desda técnica como parte normal do ciclo de desenvolvimento;
 
 - Conformidade com a Legislação Pertinente:
@@ -28,8 +27,7 @@ No passado, empresas do Fortune 500 foram processadas por seus produtos não ser
 
 Resta como melhor interesse da empresa que seus produtos sejam acessíveis como maneira de evitar processos no futuro.
 
-
-## *Como Aplicar o Teste de Acessibilidade?*
+## Como Aplicar o Teste de Acessibilidade?
 
 Podendo ser manual, ou automatizado, a aplicação pode ser desafiadora para testers devido a não familiaridade com as possíveis deficiências.
 
@@ -37,18 +35,17 @@ Podendo ser manual, ou automatizado, a aplicação pode ser desafiadora para tes
 
 Temos formas diferentes de testar, a depender de cada deficiência, tais como:
 
-1. Deficiência Visual:
+### 1. Deficiência Visual
 
-Aqui utiliza-se Softwares de Leitura de Tela, que narra o conteúdo em exibição para o osuário, tais como conteúdo, links, botões, iamgens, vídeos etc. 
+Aqui utiliza-se Softwares de Leitura de Tela, que narra o conteúdo em exibição para o osuário, tais como conteúdo, links, botões, iamgens, vídeos etc.
 
 Em resumo, ao iniciar um destes softwares e acessar um website, ele irá narrar todo o conteúdo, tornando a navegação possível a pessoas com deficiência visual.
 
-Um site mal desenvolvido, pode gerar conflitos com estes softwares, impedindo a narração correta e completa, e portanto, gerando inacessibilidade. 
+Um site mal desenvolvido, pode gerar conflitos com estes softwares, impedindo a narração correta e completa, e portanto, gerando inacessibilidade.
 
 Por exemplo, devido a erro estrutural, o software não anuncia um link como tal, descrevendo-o apenas como texto e tornando impossível que o usuário o reconheça.
 
-
-Importante ressaltar que nesta categoria também temos outras modalidades de deficiência visual, tais como baixa visão ou daltonismo. 
+Importante ressaltar que nesta categoria também temos outras modalidades de deficiência visual, tais como baixa visão ou daltonismo.
 
 No daltonismo a pessoa não é cega, mas não é capaz de visualizar algumas cores específicas. Vermelho e azul são casos comuns, tornando o acesso complexo caso o site seja baseado em uma dessas cores.
 
@@ -58,8 +55,7 @@ Já na baixa visão, o usuário também não é completamente cego, mas possui d
 
 A melhor coisa a se fazer é evitar textos muito pequenos, estruturar o site de tal forma que o usuário possa aplicar o zoom sem quebrar o layout, promovendo uma melhor experiência.
 
-
-2. Demais Deficiências:
+### 2. Demais Deficiências
 
 Um ponto extremamente imporante é considerar o acesso ao site sem o uso do mouse.
 
@@ -71,7 +67,9 @@ Por fim, é importante a observação de usuários com deficiências auditivas, 
 
 Aqui o usuário pode acessar o site e ver o seu conteúdo, mas encontra problema em audios e vídeos, tornando imperativo o alt text. O texto alternativo é o suplemento de um vídeo, ou seja, se o site apresenta um tutorial em vídeo para compra de passagens, também deve oferecer alternativa em texto, de forma que o usuário entenda o conteúdo do vídeo.
 
-## *Exemplos de Casos de Teste*
+## Exemplos de Casos de Teste
+
+Vejamos alguns exemplos de casos de teste para acessibilidade:
 
 1. A aplicação provê equivalência no teclado para todas as operações do mouse?
 2. Instruções são providenciadas como parte de documentações ou manuais? E são estas de fácil compreensão e aplicação ao operar o software?
@@ -92,6 +90,8 @@ Aqui o usuário pode acessar o site e ver o seu conteúdo, mas encontra problema
 
 ### *Ferramentas para Teste de Acessibilidade*
 
+Algumas das ferramentas mais utilizadas para testes de acessibilidade são:
+
 - Wave
 - TAW
 - Acessibility Developer Tools
@@ -99,6 +99,3 @@ Aqui o usuário pode acessar o site e ver o seu conteúdo, mas encontra problema
 - aDesigner
 - WebAnywhere
 - Web Acessibility Toolbar
-
-
-
