@@ -12,3 +12,5 @@ Nessas primeiras etapas vamos falar sobre os fundamentos do teste de software e 
 - [Como identificar o que testar](../docs/%231.5-Como-Identificar-o-que-Testar.md)
 - [Casos de testes, relatórios e erros](../docs/%231.6-Casos-de-Teste-Relators-de-Incidentes-e-Prioridades.md)
 - [Perguntas e respostas](../docs/%231.7-Perguntas-e-respostas.md)
+
+[Voltar ao ROADMAP](../README.md)
