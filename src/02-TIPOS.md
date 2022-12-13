@@ -1,6 +1,8 @@
 # Tipos de testes
 
-Nesse capítulo iremos descrever detalhadamente cada um dos tipos existentes de testes, suas características e como aplicá-los.
+Existem inúmeros tipos de testes, cada um com sua finalidade e características. Caso você esteja iniciando na área de testes, é importante que você entenda a diferença entre cada um deles, pois isso irá te ajudar a escolher o tipo de teste que você irá executar em cada situação.
+
+Nesse capítulo iremos descrever em detalhes cada um dos tipos existentes de testes, suas características e como aplicá-los.
 
 - [Tipos de testes](../docs/02-tipos/00-intro.md)
 - [Teste de funcionalidade](../docs/02-tipos/01-funcionais.md)
@@ -18,3 +20,5 @@ Nesse capítulo iremos descrever detalhadamente cada um dos tipos existentes de 
 - [Teste de segurança](../docs/02-tipos/13-pentest.md)
 - [Teste de acessibilidade](../docs/02-tipos/14-acessibilidade.md)
 - [Teste de compatibilidade](../docs/02-tipos/15-compatibilidade.md)
+
+[Voltar ao Roadmap](../README.md)

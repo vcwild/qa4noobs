@@ -7,3 +7,5 @@ Veremos mais detalhes neste capítulo.
 - [Construindo casos de teste](../docs/04-execucao/00-intro.md)
 - [Teste manual](../docs/04-execucao/01-manual.md)
 - [Teste automatizado](../docs/04-execucao/02-automatizado.md)
+
+[Voltar ao Roadmap](../README.md)

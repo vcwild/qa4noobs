@@ -36,54 +36,82 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 
 ## ⛕ Roadmap <a name="ROADMAP"></a>
 
-- [Fundamentos de teste](src/00-FOUNDATIONS.md)
-  - [Introdução](docs/00-fundacao/00-intro.md)
-  - [Testes tradicionais e ágeis](docs/00-fundacao/01-tradicionais-vs-ageis.md)
-  - [Interação com o time](docs/00-fundacao/02-interacao.md)
-  - [Ferramentas e seus objetivos](docs/00-fundacao/03-ferramentas.md)
-  - [Revisão de artefatos](docs/00-fundacao/04-artefatos.md)
-  - [Como identificar o que testar](docs/00-fundacao/05-identificar.md)
-  - [Casos de testes, relatórios e erros](docs/00-fundacao/06-casos-relator-incidentes.md)
-  - [Perguntas e respostas](docs/00-fundacao/07-questions.md)
-- [Abordagens de testes](src/01-ABORDAGENS.md)
-  - [Tipos de abordagens](docs/01-abordagens/00-intro.md)
-  - [Caixa branca](docs/01-abordagens/01-caixa-branca.md)
-  - [Caixa preta](docs/01-abordagens/02-caixa-preta.md)
-  - [Caixa cinza](docs/01-abordagens/03-caixa-cinza.md)
-- [Os diferentes tipos de testes](src/02-TIPOS.md)
-  - [Tipos de testes](docs/02-tipos/00-intro.md)
-  - [Teste de funcionalidade](docs/02-tipos/01-funcionais.md)
-  - [Teste de aceitação](docs/02-tipos/02-uat.md)
-  - [Teste exploratório](docs/02-tipos/03-exploratorio.md)
-  - [Teste de sanidade](docs/02-tipos/04-sanidade.md)
-  - [Teste de regressão](docs/02-tipos/05-regressao.md)
-  - [Teste de unidade](docs/02-tipos/06-unidade.md)
-  - [Teste de fumaça](docs/02-tipos/07-smoke.md)
-  - [Teste de integração](docs/02-tipos/08-integracao.md)
-  - [Teste não-funcional](docs/02-tipos/09-nao-funcionais.md)
-  - [Teste de carga](docs/02-tipos/10-carga.md)
-  - [Teste de performance](docs/02-tipos/11-performance.md)
-  - [Teste de stress](docs/02-tipos/12-stress.md)
-  - [Teste de segurança](docs/02-tipos/13-pentest.md)
-  - [Teste de acessibilidade](docs/02-tipos/14-acessibilidade.md)
-  - [Teste de compatibilidade](docs/02-tipos/15-compatibilidade.md)
-- [Administração de projeto](src/03-ADMIN.md)
-  - [Introdução](docs/03-admin/00-intro.md)
-  - [Planejamento de testes](docs/03-admin/01-plan.md)
-  - [Priorização de requisitos](docs/03-admin/01-priorizacao.md)
-  - [O ciclo de vida do software](docs/03-admin/02-sldc.md)
-  - [Método Ágil](docs/03-admin/03-agile.md)
-  - [Método Scrum](docs/03-admin/04-scrum.md)
-  - [Método Kanban](docs/03-admin/05-kanban.md)
-  - [Método Waterfall](docs/03-admin/06-waterfall.md)
-  - [Método V-Model](docs/03-admin/07-v-model.md)
-  - [Elaborando um relatório de testes](docs/03-admin/08-report.md)
-  - [Verificação e validação de testes](docs/03-admin/09-verificacao.md)
-- [Execução de testes](src/04-EXECUCAO.md)
-  - [Construindo casos de teste](docs/04-execucao/00-intro.md)
-  - [Teste manual](docs/04-execucao/01-manual.md)
-  - [Teste automatizado](docs/04-execucao/02-automatizado.md)
+<details open>
+  <summary> <a href="src/00-FOUNDATIONS.md">Fundamentos de teste </a> </summary>
 
+- [Introdução](docs/00-fundacao/00-intro.md)
+- [Testes tradicionais e ágeis](docs/00-fundacao/01-tradicionais-vs-ageis.md)
+- [Interação com o time](docs/00-fundacao/02-interacao.md)
+- [Ferramentas e seus objetivos](docs/00-fundacao/03-ferramentas.md)
+- [Revisão de artefatos](docs/00-fundacao/04-artefatos.md)
+- [Como identificar o que testar](docs/00-fundacao/05-identificar.md)
+- [Casos de testes, relatórios e erros](docs/00-fundacao/06-casos-relator-incidentes.md)
+- [Perguntas e respostas](docs/00-fundacao/07-questions.md)
+
+</details>
+
+<details>
+
+  <summary> <a href="src/01-ABORDAGENS.md">Abordagens de testes </a> </summary>
+
+- [Tipos de abordagens](docs/01-abordagens/00-intro.md)
+- [Caixa branca](docs/01-abordagens/01-caixa-branca.md)
+- [Caixa preta](docs/01-abordagens/02-caixa-preta.md)
+- [Caixa cinza](docs/01-abordagens/03-caixa-cinza.md)
+
+</details>
+
+<details>
+
+  <summary> <a href="src/02-TIPOS.md">Os diferentes tipos de testes</a> </summary>
+
+- [Tipos de testes](docs/02-tipos/00-intro.md)
+- [Teste de funcionalidade](docs/02-tipos/01-funcionais.md)
+- [Teste de aceitação](docs/02-tipos/02-uat.md)
+- [Teste exploratório](docs/02-tipos/03-exploratorio.md)
+- [Teste de sanidade](docs/02-tipos/04-sanidade.md)
+- [Teste de regressão](docs/02-tipos/05-regressao.md)
+- [Teste de unidade](docs/02-tipos/06-unidade.md)
+- [Teste de fumaça](docs/02-tipos/07-smoke.md)
+- [Teste de integração](docs/02-tipos/08-integracao.md)
+- [Teste não-funcional](docs/02-tipos/09-nao-funcionais.md)
+- [Teste de carga](docs/02-tipos/10-carga.md)
+- [Teste de performance](docs/02-tipos/11-performance.md)
+- [Teste de stress](docs/02-tipos/12-stress.md)
+- [Teste de segurança](docs/02-tipos/13-pentest.md)
+- [Teste de acessibilidade](docs/02-tipos/14-acessibilidade.md)
+- [Teste de compatibilidade](docs/02-tipos/15-compatibilidade.md)
+
+</details>
+
+<details>
+
+  <summary> <a href="src/03-ADMIN.md">Administração de projeto</a> </summary>
+
+- [Introdução](docs/03-admin/00-intro.md)
+- [Planejamento de testes](docs/03-admin/01-plan.md)
+- [Priorização de requisitos](docs/03-admin/01-priorizacao.md)
+- [O ciclo de vida do software](docs/03-admin/02-sldc.md)
+- [Método Ágil](docs/03-admin/03-agile.md)
+- [Método Scrum](docs/03-admin/04-scrum.md)
+- [Método Kanban](docs/03-admin/05-kanban.md)
+- [Método Waterfall](docs/03-admin/06-waterfall.md)
+- [Método V-Model](docs/03-admin/07-v-model.md)
+- [Elaborando um relatório de testes](docs/03-admin/08-report.md)
+- [Verificação e validação de testes](docs/03-admin/09-verificacao.md)
+
+</details>
+
+<details>
+
+  <summary> <a href="src/04-EXECUCAO.md">Execução de testes</a> </summary>
+
+- [Construindo casos de teste](docs/04-execucao/00-intro.md)
+- [Teste manual](docs/04-execucao/01-manual.md)
+- [Teste automatizado](docs/04-execucao/02-automatizado.md)
+
+</details>
+<br>
 <!-- CONTRIBUTING -->
 
 ## 🤝 Como contribuir
