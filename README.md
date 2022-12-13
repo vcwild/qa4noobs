@@ -34,17 +34,17 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 
 <!-- ROADMAP OF PROJECT -->
 
-## ⛕ Roadmap
+## ⛕ Roadmap <a name="ROADMAP"></a>
 
 - [Fundamentos de teste](src/01-FOUNDATIONS.md)
-  - [Fundamentos do teste de software](docs/%231-Fundamentos-do-Teste-de-Software.md)
-  - [Testes tradicionais e ágeis](docs/%231.1-Testes-Tradicionais-e-%C3%81geis.md)
-  - [Interação com o time](docs/%231.2-Interacao-com-o-Time.md)
-  - [Ferramentas e seus objetivos](docs/%231.3-Ferramentas-e-seus-Objetivos.md)
-  - [Revisão de artefatos](docs/%231.4-Revisao-de-Artefatos.md)
-  - [Como identificar o que testar](docs/%231.5-Como-Identificar-o-que-Testar.md)
-  - [Casos de testes, relatórios e erros](docs/%231.6-Casos-de-Teste-Relators-de-Incidentes-e-Prioridades.md)
-  - [Perguntas e respostas](docs/%231.7-Perguntas-e-respostas.md)
+  - [Introdução](docs/00-fundacao/00-intro.md)
+  - [Testes tradicionais e ágeis](docs/00-fundacao/01-tradicionais-vs-ageis.md)
+  - [Interação com o time](docs/00-fundacao/02-interacao.md)
+  - [Ferramentas e seus objetivos](docs/00-fundacao/03-ferramentas.md)
+  - [Revisão de artefatos](docs/00-fundacao/04-artefatos.md)
+  - [Como identificar o que testar](docs/00-fundacao/05-identificar.md)
+  - [Casos de testes, relatórios e erros](docs/00-fundacao/06-casos-relator-incidentes.md)
+  - [Perguntas e respostas](docs/00-fundacao/07-questions.md)
 
 <!-- CONTRIBUTING -->
 
