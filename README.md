@@ -66,8 +66,10 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
   - [Teste de stress](docs/02-tipos/12-stress.md)
   - [Teste de segurança](docs/02-tipos/13-pentest.md)
   - [Teste de acessibilidade](docs/02-tipos/14-acessibilidade.md)
+  - [Teste de compatibilidade](docs/02-tipos/15-compatibilidade.md)
 - [Administração de projeto](src/03-ADMIN.md)
   - [Introdução](docs/03-admin/00-intro.md)
+  - [Planejamento de testes](docs/03-admin/01-plan.md)
   - [Priorização de requisitos](docs/03-admin/01-priorizacao.md)
   - [O ciclo de vida do software](docs/03-admin/02-sldc.md)
   - [Método Ágil](docs/03-admin/03-agile.md)
@@ -76,6 +78,12 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
   - [Método Waterfall](docs/03-admin/06-waterfall.md)
   - [Método V-Model](docs/03-admin/07-v-model.md)
   - [Elaborando um relatório de testes](docs/03-admin/08-report.md)
+  - [Verificação e validação de testes](docs/03-admin/09-verificacao.md)
+- [Execução de testes](src/04-EXECUCAO.md)
+  - [Construindo casos de teste](docs/04-execucao/00-intro.md)
+  - [Teste manual](docs/04-execucao/01-manual.md)
+  - [Teste automatizado](docs/04-execucao/02-automatizado.md)
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Como contribuir

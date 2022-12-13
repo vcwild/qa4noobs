@@ -5,6 +5,7 @@ Administração de projeto é um tópico muito importante para a área de testes
 Vejamos como podemos administrar um projeto:
 
 - [Introdução](../docs/03-admin/00-intro.md)
+- [Planejamento de testes](../docs/03-admin/01-plan.md)
 - [Priorização de requisitos](../docs/03-admin/01-priorizacao.md)
 - [O ciclo de vida do software](../docs/03-admin/02-sldc.md)
 - [Método Ágil](../docs/03-admin/03-agile.md)

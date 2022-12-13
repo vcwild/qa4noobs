@@ -17,3 +17,4 @@ Nesse capítulo iremos descrever detalhadamente cada um dos tipos existentes de 
 - [Teste de stress](../docs/02-tipos/12-stress.md)
 - [Teste de segurança](../docs/02-tipos/13-pentest.md)
 - [Teste de acessibilidade](../docs/02-tipos/14-acessibilidade.md)
+- [Teste de compatibilidade](../docs/02-tipos/15-compatibilidade.md)

@@ -1,52 +1,46 @@
-# **Verificação e Validação**
+# Verificação e Validação
 
-A verificação, na testagem de software é um processo de checar documentos, design, código e programa para validar se o software ofoi construído de acordo com as regras de negócio. 
+A verificação, na testagem de software é um processo de checar documentos, design, código e programa para validar se o software foi construído de acordo com as regras de negócio.
 
 O principal objetivo é garantir a qualidade da aplicação, design, arquitetura, etc. Este processo envolve atividades como revisões, passo a passo e inspeções.
 
-## *O que é Validação para testes de software?*
+## O que é Validação para testes de software?
 
 É um mecanismo dinâmico que testa e valida se o software de fato atende as exatas necessidades do cliente ou não. O processo auxilia a garantir que o produto atende o uso desejado em um ambiente apropriado. O processo de Validação envolve atividades como Teste Unitário, Teste de Integração, Teste de Sistema e Teste de Aceitação do Usuário (UAT)
 
-## *Diferenças entre Verificação e Validação*
+## Diferenças entre Verificação e Validação
 
-- Verificação:
-  - O processo de verificação inclue checar documentos, design, código e programa.
-  - **Não envolve** a execução de código.
-  - A verificação utiliza métodos como revisões, passo a passo, inspeções, verificação de mesa, etc.
-  - Se o sistema está em conformidade com as especificações.
-  - Encontra bugs no início do ciclo de desenvolvimento.
-  - Alveja a aplicação e arquitetura de software, especificações, design completo, alto nível, design da base de dados, etc.
-  - Time de QA realiza verificações e garante que o software encontra-se em conformidade com as regras de negócio.
-  - Vem **antes** da Validação.
+Vejamos as características que diferem Verificação de Validação:
 
-<br>
+### Verificação
 
-- Validação:
-  - É um mecanismo dinâmico para teste e validação de um produto factual.
-  - Sempre envolve a execução de código.
-  - Utiliza-se de métodos como testes Caixa-Preta, Caixa-Branca e Não-Funcionais. 
-  - Pode localizar bugs que o processo de verificação não detectou.
-  - Tem como alvo o produto em si.
-  - Com o envolvimento do time de testes a validação é executada em código de software.
-  - Vem **depois** da verificação.
+- O processo de verificação inclue checar documentos, design, código e programa.
+- **Não envolve** a execução de código.
+- A verificação utiliza métodos como revisões, passo a passo, inspeções, verificação de mesa, etc.
+- Se o sistema está em conformidade com as especificações.
+- Encontra bugs no início do ciclo de desenvolvimento.
+- Alveja a aplicação e arquitetura de software, especificações, design completo, alto nível, design da base de dados, etc.
+- Time de QA realiza verificações e garante que o software encontra-se em conformidade com as regras de negócio.
+- Vem **antes** da Validação.
 
-<br>
+### Validação
 
-## *Exemplos de Verificação e Validação*
+- É um mecanismo dinâmico para teste e validação de um produto factual.
+- Sempre envolve a execução de código.
+- Utiliza-se de métodos como testes Caixa-Preta, Caixa-Branca e Não-Funcionais.
+- Pode localizar bugs que o processo de verificação não detectou.
+- Tem como alvo o produto em si.
+- Com o envolvimento do time de testes a validação é executada em código de software.
+- Vem **depois** da verificação.
 
-<br>
+## Exemplos de Verificação e Validação
 
 *Um botão clicável de nome* **Submet**
 
- - Verificação checaria o documento de design e corrigiria o erro de digitação.
- - Do contrário, o time de desenvolvimento criaria o botão da seguinte forma:
-
-<br>
+- Verificação checaria o documento de design e corrigiria o erro de digitação.
+- Do contrário, o time de desenvolvimento criaria o botão da seguinte forma:
 
 <img src="https://www.guru99.com/images/blog/submet.png" alt="Botão Submet">
-
-<br>
 
 Portanto, a especificação é um botão de nome **Submit**
 
@@ -55,22 +49,13 @@ Portanto, a especificação é um botão de nome **Submit**
 
 Graças ao teste de Validação, o time de desenvolvimento fará o botão Submit tornar-se clicável.
 
-<br>
+## Validação do Projeto
 
-## *Validação do Projeto*
-
-<br>
 É um processo que avalia se produto de software está de acordo com os exatos requerimentos de usuários finais ou investidores. O propósito é testar o produto de software após desenvolvimento, para garantir que atenda as regras de negócios no ambiente de usuário.
-
-<br>
 
 <img src="https://www.guru99.com/images/jsp/030116_0846_LearnDesign1.png" alt="Fluxograma Validação de Design">
 
-<br>
-
 A validação preocupa-se em demonstrar a consistência e completude do design no que tange necessidades do usuário. Este é o estágio em que se constrói uma versão do produto e valida-se contra as regras de negócio.
-
-<br>
 
 <img src="https://www.guru99.com/images/jsp/030116_0846_LearnDesign2.png" alt="Fluxograma Processo de Validação">
 
@@ -78,13 +63,13 @@ O objetivo é provar com evidências objetivas que o produto satisfaça as neces
 
 Este processo envolve atividades de teste, inspeção, análise, etc.
 
-## *Verificação do Projeto*
+## Verificação do Projeto
 
 É um método que confirma se o output de um produto de software designado atende as especificações de input ao examinar e prover evidências. O objetivo do processo de verificação é garantir que o design é idêntico ao especificado.
 
 Entrada de projeto é qualquer requerimento físico e de performance usado como base para propósitos de design. O output é resultado de cada fase de design ao final de todo o esforço de desenvolvimento. O output final é a base para registro mestre do dispositivo.
 
-### *Processo de Verificação do Projeto:*
+### Processo de Verificação do Projeto
 
 - Identificação e Preparo
   - Durante o estágio de desenvolvimento de uma especificação, as atividades de identificação e verificação são feitas de forma paralela. Isto permite ao designer garantir que as especificações são verificáveis. Um engenheiro de testes pode, então, iniciar planos de teste e procedimentos detalhados. Quaisquer mudanças na especificação devem ser comunicadas.
@@ -102,9 +87,8 @@ Entrada de projeto é qualquer requerimento físico e de performance usado como 
   - As entradas de projeto serão desenvolvidos de forma a incluir verificações simples, livres de ambiguidade e verificáveis.
   - Tempo de verificação deve ser reduzido quando conceitos similares são conduzidos em sequência. Até mesmo o output de um teste pode ser usado como input de testes subsequentes.
   - Links de tratabilidade são criados entre casos de testes e inputs de projeto correspondentes, para garantir que todos os requerimentos sejam testados e que o output de projeto atenda aos inputs.
-  
 
-- Execução: 
+- Execução:
   - Os procedimentos de teste criados durante a fase de desenvolvimento são executados de acordo com o plano de testes, que deve ser estritamente seguido para atividades de verificação.
   - Caso qualquer resultado inválido ocorra, ou caso qualquer procedimento necessite de modificações, é importante documentar as mudanças e conseguir aprovações pertinentes.
   - Neste estágio, quaisquer problemas são identificados e catalogados como um defeito.
@@ -116,28 +100,24 @@ Entrada de projeto é qualquer requerimento físico e de performance usado como 
   - O relatório de rastreabilidade de verificação de design é criado entre requerimentos e resultados de teste correspondentes para  verificar que todas as regras de negócio foram testadas e providas com resultados apropriados.
   - Qualquer inconformidade será documentada e apropriadamente abordada.
   - Revisões são feitas quando da finalização das verificações de design, e são aprovadas respectivamente.
-  
-  
-  
-  
-## *Processo de validação do Projeto*
+
+## Processo de validação do Projeto
 
 - Alguns dos designs podem ser validados ao comparar com equipamentos similares desenvolvendo atividades semelhantes. Este método é particularmente relevante para validar alterações de configuração para a infraestrutura existente, ou designs padrão que devem ser incorporados em um novo sistema ou aplicação.
--  Demonstração e/ou inspeções podem ser usadas para validar regras de negócio e outras funcionalidades do projeto.
--  Análises de produto podem ser feitas como modelagem matemática, uma simulação que recria a funcionalidade necessária.
--  Testes são executados no design final, que valida a habilidade do sistema de operar conforme as diretrizes estabelecidas.
--  Plano de testes, execução e resultados devem ser documentados e mantidos como parte dos registros de design. Portanto, Validação é uma coletânea dos resultados de todas as ações de validação.
+- Demonstração e/ou inspeções podem ser usadas para validar regras de negócio e outras funcionalidades do projeto.
+- Análises de produto podem ser feitas como modelagem matemática, uma simulação que recria a funcionalidade necessária.
+- Testes são executados no design final, que valida a habilidade do sistema de operar conforme as diretrizes estabelecidas.
+- Plano de testes, execução e resultados devem ser documentados e mantidos como parte dos registros de design. Portanto, Validação é uma coletânea dos resultados de todas as ações de validação.
 - Quando produtos equivalentes são utilizados na validação de design final, o fabricante deve documentar a similaridade e qualquer diferença da produção original.
-  
-<br>
 
 *Exemplo:*
+
 - Tomemos como exemplo um produto simples, um relógio a prova d'agua.
 - As regras de negócio podem definir que "o relógio deve ser a prova de água durante natação".
 - A especificação de design pode definir que "o relógio deve funcionar mesmo que o usuário nade por tempo prolongado">
 - Os resultados de teste devem confirmar que o relógio atende estas regras ou iterações de redesign são feitas até que satisfaça aos requerimentos.
 
-## *Vantagens da Validação e Verificação de Design*
+## Vantagens da Validação e Verificação de Design
 
 - Podemos monitorar continuamente os designs, o que nos permite atender aos requerimentos definidos por usuários em cada estágio.
 - Validar o design irá pontuar a diferença entre como a funcionalidade opera e como ela deveria operar.
@@ -147,4 +127,3 @@ Entrada de projeto é qualquer requerimento físico e de performance usado como 
 - Qualquer diferença entre o resultado e as necessidades de usuário devem ser documentados.
 - Mudanças na validação de design levam a revalidações.
 - É importante documentar todas as atividades  que ocorram durante a validação, o que adequadamente prova que o design atende aos requerimentos de usuário.
-
