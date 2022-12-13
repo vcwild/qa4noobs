@@ -18,7 +18,7 @@ A necessidade deste teste surge uma vez que, tendo o software passado por teste 
 
 Logo, para verificar se o produto final é aceitável ao cliente/usuário, este teste faz-se necessário.
 
-### - Pré-Requisitos para o UAT
+### Pré-Requisitos para o UAT
 
 - As condições de aceite devem estar disponíveis;
 - O código da aplicação deve estar completamente desenvolvido;
