@@ -1,9 +1,5 @@
 # **Fundamentos do Teste de Software**
 
-Bem vindo ao 4noobs de testes!
-
-Nessas primeiras etapas vamos falar sobre os fundamentos do teste de software e como ele é realizado.
-
 ## *Erro, Defeito e Falha*
 
 - Erro: Ação humana que produz resultado incorreto.

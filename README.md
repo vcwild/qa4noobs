@@ -18,9 +18,9 @@
     <a href="#ROADMAP"><strong>Veja o Roadmap »</strong></a>
     <br />
     <br />
-    <a href="link-para-abrir-issue">Reporte um erro</a>
+    <a href="https://github.com/vcwild/qa4noobs/issues">Reporte um erro</a>
     ·
-    <a href="link-para-abrir-issue">Peça uma feature</a>
+    <a href="https://github.com/vcwild/qa4noobs/issues">Peça uma feature</a>
   </p>
 </p>
 
@@ -28,22 +28,15 @@
 
 ## Sobre o Projeto
 
-Explique um pouco sobre o 4noobs que está desenvolvendo.
+Qualidade de software é uma área de conhecimento que envolve a garantia de que um produto de software atenda aos requisitos, seja confiável, eficiente e eficaz. A qualidade de software é um atributo que pode ser avaliado por meio de testes, que são atividades que visam verificar se um produto de software atende aos requisitos e se está livre de defeitos.
+
+Esse projeto tem como objetivo apresentar os fundamentos de testes de software, ferramentas e boas práticas para quem está começando na área de qualidade de software.
 
 <!-- ROADMAP OF PROJECT -->
 
 ## Roadmap
 
-- [Conteúdo 1](link-primeira-parte)
-- [Conteúdo 2](link-segunda-parte)
-- [Conteúdo 3](link-terceira-parte)
-  - [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
-- [Conteúdo 4](link-quarta-parte)
-- [Conteúdo 5](link-quinta-parte)
-  - [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
+- [Fundamentos de teste](src/01-FOUNDATIONS.md)
 
 <!-- CONTRIBUTING -->
 
