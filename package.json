@@ -1,17 +1,17 @@
 {
-  "name": "demo",
+  "name": "QA-He4rt",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "AGPL-3.0",
   "devDependencies": {
     "vuepress": "^1.9.7"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "repository": "https://github.com/vcwild/qa4noobs.git",
+  "author": "vcwild",
   "dependencies": {
-    "vuepress-theme-yuu": "^3.1.1"
+    "vuepress-theme-yuu": "^2.3.0"
   }
 }

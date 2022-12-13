@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  base: "/qa4noobs/",
   title: "Curso de QA da He4rt Developers",
   theme: "yuu",
   description: "QA",

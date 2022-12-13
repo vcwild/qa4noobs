@@ -8109,7 +8109,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-click-outside@^1.1.0:
+vue-click-outside@^1.0.7:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vue-click-outside/-/vue-click-outside-1.1.0.tgz#48b7680b518923e701643cccb3e165854aad99eb"
   integrity sha512-pNyvAA9mRXJwPHlHJyjMb4IONSc7khS5lxGcMyE2EIKgNMAO279PWM9Hyq0d5J4FkiSRdmFLwnbjDd5UtPizHQ==
@@ -8206,12 +8206,12 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-theme-yuu@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-yuu/-/vuepress-theme-yuu-3.1.1.tgz#3beecfe51dbd91bd6c45fa3f865b091610e77931"
-  integrity sha512-eUb0jhyqoeaLS7edATgoNoBFWxO7YTzJ5eRt1swdMyF+qps3fm8bbDX3TkN8O5/zb4QcRktzPKWR5Doi6Wedaw==
+vuepress-theme-yuu@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-yuu/-/vuepress-theme-yuu-2.3.0.tgz#2f38802bb579d5c64d2fcd450ca16168a25fa14b"
+  integrity sha512-QzGf5kAF8+4fTS6fFtg4o8mqEmiOm525oOw1cWWG+iUN9FWp/yaDlT4RN1xs2km8CNs1st9HvbGksLI1IhJK/Q==
   dependencies:
-    vue-click-outside "^1.1.0"
+    vue-click-outside "^1.0.7"
 
 vuepress@^1.9.7:
   version "1.9.7"
