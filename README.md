@@ -11,22 +11,31 @@
 <p align="center">
   <h2 align="center">Quality Engineering 4noobs</h2>
 
-  <h1 align="center"><img src=".github/qa.gif" alt="Imagem de QA" width="120"></h1>
+  <h1 align="center">
+
+  <img src=".github/qa.gif" alt="Imagem de QA" width="150">
+  </br>
+  <img src="https://img.shields.io/badge/topics-42-blueviolet?style=flat-square" alt="topics" />
+  <img src="https://img.shields.io/tokei/lines/github/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="topics" />
+  <img src="https://img.shields.io/github/license/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="license" />
+
+</h1>
 
   <p align="center">
     <br />
     <a href="#ROADMAP"><strong>Veja o Roadmap »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/vcwild/qa4noobs/issues">Reporte um erro</a>
-    ·
-    <a href="https://github.com/vcwild/qa4noobs/issues">Peça uma feature</a>
+    <a href="#about">Sobre</a> •
+    <a href="#contribute">Contribua</a> •
+    <a href="#author">Autores</a> •
+    <a href="#license">Licença</a>
   </p>
 </p>
 
  <!-- ABOUT THE PROJECT -->
 
-## ❓ Sobre o Projeto
+## ❓ Sobre o Projeto <a id="about"></a>
 
 Qualidade de software é uma área de conhecimento que envolve a garantia de que um produto de software atenda aos requisitos, seja confiável, eficiente e eficaz. A qualidade de software é um atributo que pode ser avaliado por meio de testes, que são atividades que visam verificar se um produto de software atende aos requisitos e se está livre de defeitos.
 
@@ -34,7 +43,7 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 
 <!-- ROADMAP OF PROJECT -->
 
-## ⛕ Roadmap <a name="ROADMAP"></a>
+## ⛕ Roadmap <a id="ROADMAP"></a>
 
 <details open>
   <summary> <a href="src/00-FOUNDATIONS.md">Fundamentos de teste </a> </summary>
@@ -114,7 +123,7 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 <br>
 <!-- CONTRIBUTING -->
 
-## 🤝 Como contribuir
+## 🤝 Como contribuir <a id="contribute"></a>
 
 Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
 são **extremamente apreciadas**
@@ -125,12 +134,12 @@ são **extremamente apreciadas**
 4. Realize o Push no Branch (`git push origin feature/featureBraba`)
 5. Abra um Pull Request
 
-## 💁‍♂️ Autores
+## 💁‍♂️ Autores <a id="author"></a>
 
 - **Victor Manoel** - _Software Quality Engineer_ - [@TTVKeeabo](https://www.twitch.tv/keeabo)
 - **Victor Wildner** - _Software Engineer_ - [@vcwild](https://twitter.com/vcwild)
 
-## 🏷️ Licença
+## 🏷️ Licença <a id="license"></a>
 
 O projeto está sob a licença AGPL-3.0. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
