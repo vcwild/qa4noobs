@@ -1,4 +1,4 @@
-# **Teste de Regressão**
+# Teste de Regressão
 
 É a modalidade de teste usado para confirmar que uma mudança recente no código não afetou de forma adversa outras features já existentes.
 

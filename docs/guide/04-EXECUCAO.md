@@ -4,8 +4,8 @@ Os testes podem ser executados de duas formas distintas: manualmente ou automati
 
 Veremos mais detalhes neste capítulo.
 
-- [Construindo casos de teste](../04-execucao/00-intro.md)
-- [Teste manual](../04-execucao/01-manual.md)
-- [Teste automatizado](../04-execucao/02-automatizado.md)
+1. [Construindo casos de teste](../04-execucao/00-intro.md)
+1. [Teste manual](../04-execucao/01-manual.md)
+1. [Teste automatizado](../04-execucao/02-automatizado.md)
 
-[Voltar ao Roadmap](README.md)
+← [Voltar ao Roadmap](README.md)

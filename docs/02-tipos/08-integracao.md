@@ -1,4 +1,4 @@
-# **Teste de Integração**
+# Teste de Integração
 
 É um tipo de teste onde os módulos de software são logicamente integrados e testados como um grupo.
 

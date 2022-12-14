@@ -1,4 +1,4 @@
-# **Teste de Fumaça**
+# Teste de Fumaça
 
 Técnica que verifica se a versão implantada do software está estável ou não.
 
@@ -10,7 +10,7 @@ Em termos simples o teste de fumaça valida se as features vitais estão funcion
 
 É um pequeno e rápido teste de regressão apenas para testar as principais funcionalidades, de forma a determinar se a build esta falha a ponto de tornar demais testes um desperdício de tempo e recursos.
 
-### Teste de Fumaça x Teste de Sanidade
+## Teste de Fumaça x Teste de Sanidade
 
 - *Teste de fumaça* verifica funcionalidades críticas enquanto o *Teste de Sanidade* verifica novas funcionalidades como bug fixes.
 - *Teste de fumaça* é documentado ou roteirizado, enquanto o *Teste de Sanidade*, não é.

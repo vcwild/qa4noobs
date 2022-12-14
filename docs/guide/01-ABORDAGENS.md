@@ -4,9 +4,9 @@ A natureza dos testes depende muito de como interagimos ou não com o sistema so
 
 Nesse segundo capítulo iremos discutir sobre essas diferentes abordagens de testes, como elas são realizadas e quais são as suas vantagens e desvantagens.
 
-- [Tipos de abordagens](../01-abordagens/00-intro.md)
-- [Caixa branca](../01-abordagens/01-caixa-branca.md)
-- [Caixa preta](../01-abordagens/02-caixa-preta.md)
-- [Caixa cinza](../01-abordagens/03-caixa-cinza.md)
+1. [Tipos de abordagens](../01-abordagens/00-intro.md)
+1. [Caixa branca](../01-abordagens/01-caixa-branca.md)
+1. [Caixa preta](../01-abordagens/02-caixa-preta.md)
+1. [Caixa cinza](../01-abordagens/03-caixa-cinza.md)
 
-[Voltar ao Roadmap](README.md)
+← [Voltar ao Roadmap](README.md)

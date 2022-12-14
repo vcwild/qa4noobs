@@ -1,4 +1,4 @@
-# **Teste de Performance**
+# Teste de Performance
 
 Teste de performance é um subgrupo da Engenharia de Performance, é um processo de avaliar o comportamento de um sistema sob diversas condições extremas.
 

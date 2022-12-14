@@ -1,4 +1,4 @@
-# **Técnicas de Teste**
+# Técnicas de Teste
 
 As Técnicas são os métodos aplicados para avaliar um sistema ou componente com o propósito de determinar se este satisfaz as regras de negócio.
 

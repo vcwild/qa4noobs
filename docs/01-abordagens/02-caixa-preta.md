@@ -1,4 +1,4 @@
-# **Teste de Caixa Preta**
+# Teste de Caixa Preta
 
 O teste de caixa preta tem como objetivo verificar se o sistema sob verificação está funcionando corretamente, ou seja, se ele está de acordo com as regras de negócio e especificações do sistema.
 

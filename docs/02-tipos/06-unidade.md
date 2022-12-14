@@ -1,4 +1,4 @@
-# **Teste Unitário**
+# Teste Unitário
 
 É uma técnica de testagem em que unidades individuais ou componentes de um software são testados.
 
