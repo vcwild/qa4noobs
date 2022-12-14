@@ -15,17 +15,18 @@
 
   <img src=".github/qa.gif" alt="Imagem de QA" width="150">
   </br>
-  <img src="https://img.shields.io/github/workflow/status/vcwild/qa4noobs/deploy?style=flat-square&color=blueviolet" alt="build" />
-  <img src="https://img.shields.io/badge/topics-42-blueviolet?style=flat-square" alt="topics" />
-  <img src="https://img.shields.io/tokei/lines/github/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="topics" />
-  <img src="https://img.shields.io/github/license/vcwild/qa4noobs?color=blueviolet&style=flat-square" alt="license" />
+  <img src="https://img.shields.io/github/workflow/status/vcwild/qa4noobs/deploy?style=flat-square&color=9468cc" alt="build" />
+  <img src="https://img.shields.io/badge/topics-42-9468cc?style=flat-square" alt="topics" />
+  <img src="https://img.shields.io/tokei/lines/github/vcwild/qa4noobs?color=9468cc&style=flat-square" alt="topics" />
+  <img src="https://img.shields.io/github/license/vcwild/qa4noobs?color=9468cc&style=flat-square" alt="license" />
 
 </h1>
 
-  <p align="center">
+  <h2 align="center">
     <a href="https://vcwild.github.io/qa4noobs/" > <strong>Veja o projeto na íntegra »</strong></a>
-    <br />
-    <br />
+  </h2>
+  <br />
+  <p align="center">
     <a href="#about">Sobre</a> •
     <a href="#ROADMAP">Roadmap •</a>
     <a href="#contribute">Contribua</a> •
@@ -135,19 +136,31 @@ são **extremamente apreciadas**
 4. Realize o Push no Branch (`git push origin feature/featureBraba`)
 5. Abra um Pull Request
 
+### Desenvolvimento local <a id="development"></a>
+
+Para rodar o projeto localmente, você precisa ter o [Node.js](https://nodejs.org/en/) instalado na sua máquina. Também recomendamos utilizar o [Yarn](https://yarnpkg.com/) como gerenciador de pacotes.
+
+Adicione as variáveis de ambiente ao seu path:
+
+```sh
+source scripts/enviroment.sh
+```
+
+Rode os comandos:
+
+```sh
+# instalar dependências
+yarn
+
+# servir com hot reload em localhost:8080
+yarn dev
+```
+
 ## 💁‍♂️ Autores <a id="author"></a>
 
-- **Victor Manoel** - _Software Quality Engineer_ - [@TTVKeeabo](https://www.twitch.tv/keeabo)
+- **Victor Manoel** - _Software Quality Engineer_ - [@Keeabo](https://www.linkedin.com/in/victor-manoel-0b4413191/)
 - **Victor Wildner** - _Software Quality Engineer_ - [@vcwild](https://twitter.com/vcwild)
 
 ## 🏷️ Licença <a id="license"></a>
 
 O projeto está sob a licença AGPL-3.0. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src="docs/.vuepress/public/images/footer_4noobs.svg" width="380">
-  </a>
-</p>

@@ -12,13 +12,21 @@ Um grande abraço e boa sorte nos estudos!
 
 ## Sumário
 
-- [Fundamentos de testes](00-FOUNDATIONS.md)
-- [Abordagens de testes](01-ABORDAGENS.md)
-- [Tipos de testes](02-TIPOS.md)
-- [Administração de Projetos](03-ADMIN.md)
-- [Execução de Testes](04-EXECUCAO.md)
+1. [Fundamentos de testes](00-FOUNDATIONS.md)
+1. [Abordagens de testes](01-ABORDAGENS.md)
+1. [Tipos de testes](02-TIPOS.md)
+1. [Administração de Projetos](03-ADMIN.md)
+1. [Execução de Testes](04-EXECUCAO.md)
 
 ## Créditos
 
-- **Victor Manoel** - _Software Quality Engineer_ - [@Keeabo](https://www.twitch.tv/keeabo)
+- **Victor Manoel** - _Software Quality Engineer_ - [@Keeabo](https://www.linkedin.com/in/victor-manoel-0b4413191/)
 - **Victor Wildner** - _Software Quality Engineer_ - [@vcwild](https://twitter.com/vcwild)
+
+## Referências
+
+- [ISQTB CTFL](https://www.istqb.org/certifications/certified-tester-foundation-level)
+- [Agile Testers](https://agiletesters.com.br/)
+- [Roadmap QA](https://roadmap.sh/qa)
+- [Curso Cypress DIO](https://web.dio.me/course/implementando-testes-automatizados-usando-cypress-em-uma-aplicacao-angular/learning/ea18fc2f-6620-4d38-931a-66f43cf9684b?back=/home)
+- [qacademy.io](https://qacademy.io/)

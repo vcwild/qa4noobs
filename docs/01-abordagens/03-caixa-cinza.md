@@ -1,4 +1,4 @@
-# **Teste de Caixa Cinza**
+# Teste de Caixa Cinza
 
 Testes de caixa cinza são uma combinação de testes de caixa branca e de caixa preta. Eles são usados para testar um produto ou aplicação com conhecimento parcial da estrutura interna da aplicação. O propósito deste teste é procurar e identificar os defeitos gerados devido a estrutura ou uso impróprios da aplicação.
 

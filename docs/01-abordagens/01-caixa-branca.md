@@ -44,7 +44,7 @@ O tester irá desenvolver pequenos testes para cada processo ou série de proces
 
 Outros métodos incluem testes manuais, tentativa e erro, e o uso de ferramentas de teste.
 
-#### *Exemplo de Teste Caixa Branca:*
+#### Exemplo de Teste Caixa Branca
 
 Vejamos um exemplo de teste de caixa branca em um código simples:
 

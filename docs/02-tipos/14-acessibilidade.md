@@ -1,4 +1,4 @@
-## Teste de Acessibilidade
+# Teste de Acessibilidade
 
 É definido como um tipo de testagem aplicado para garantir que a aplicação em voga é usável por pessoas com condições como surdez, daltonismo, idade avançada, etc.
 
@@ -88,7 +88,7 @@ Vejamos alguns exemplos de casos de teste para acessibilidade:
 15. Conteúdo de áudio e vídeo é claro para pessoas com deficiência? Teste todas as páginas multimedia sem alto falantes.
 16. Treinamento é oferecido a usuários com deficiência que promovam familiaridade com o software?
 
-### *Ferramentas para Teste de Acessibilidade*
+### Ferramentas para Teste de Acessibilidade
 
 Algumas das ferramentas mais utilizadas para testes de acessibilidade são:
 

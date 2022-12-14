@@ -1,8 +1,8 @@
-# **Como Identificar o que Testar**
+# Como Identificar o que Testar
 
 Durante o processo de testes é necessário identificar o que deve ser testado, para isso, é necessário entender o que é um teste, e como ele é realizado.
 
-## *As 3 Principais formas de Documentar um Teste*
+## As 3 Principais formas de Documentar um Teste
 
 Vamos entender as 3 formas de documentar um teste, para que possamos entender como identificar o que deve ser testado.
 
@@ -21,7 +21,7 @@ Tipo menos detalhado de documentação, descrição de objetivo que o usuário p
 
 Pode ser feito o uso de todos estas modalidades, muitas vezes simultâneamente, e divida entre a equipe com base em suas diferentes habilidades e competências dentro do contexto específico do projeto.
 
-## *Como identificar o que testar*
+## Como identificar o que testar
 
 Vamos entender as diferentes formas de testar.
 

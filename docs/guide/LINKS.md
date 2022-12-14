@@ -3,17 +3,16 @@
 ## *Trabalho em Desenvolvimento*
 
  Favor desconsiderar irrelevâncias e eventuais erros gramáticos.
-  
+
   > Links Relevantes:
 
-[Roadmap_QA](https://roadmap.sh/qa)  
+[Roadmap_QA](https://roadmap.sh/qa)
 
 [Udemy_Teste_de_Software](https://www.udemy.com/course/teste-software-completo-testes-automaticos/)
 
 [Udemy_API](https://www.udemy.com/course/restful-apis/learn/lecture/6119416?start=0#overview)
 
 [Udemy_SQL](https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/learn/lecture/19043190?start=0#overview)
-
 
 [JS_Para_Testers](https://www.youtube.com/playlist?list=PLzDWIPKHyNmLxpL8iQWZXwl_ln0BgckL)
 
@@ -29,9 +28,9 @@
 
 [4noobsHea4rtLabs](https://github.com/he4rt/4noobs)
 
-[Postman](https://web.postman.co/bootcamp)  
+[Postman](https://web.postman.co/bootcamp)
 
-[Aula_Java](https://web.dio.me/course/desenvolvimento-basico-em-java/learning/5ba0edbd-5ba3-4afb-ac63-471f736ad110)  
+[Aula_Java](https://web.dio.me/course/desenvolvimento-basico-em-java/learning/5ba0edbd-5ba3-4afb-ac63-471f736ad110)
 
 [Linkedin_Emprego](https://www.linkedin.com/in/arthur-carneiro-153a9b169/)
 
@@ -49,7 +48,7 @@ As 7 ferramentas de qualidade:
 
 2 - [Fluxograma](ttps://www.voitto.com.br/blog/artigo/fluxograma)
 
-3 -  [Carta de Controle](https://eprconsultoria.com.br/carta-de-controle/)  
+3 -  [Carta de Controle](https://eprconsultoria.com.br/carta-de-controle/)
 
 4 - [Ishkawa](https://www.siteware.com.br/metodologias/diagrama-de-ishikawa/)
 

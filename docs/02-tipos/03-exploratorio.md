@@ -1,4 +1,4 @@
-# **Teste Exploratório**
+# Teste Exploratório
 
 Testagem exploratória é avaliar um produto aprendendo sobre ele através de exploração e experimentação, incluindo:
 

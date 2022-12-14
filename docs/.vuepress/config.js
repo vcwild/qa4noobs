@@ -2,7 +2,7 @@ module.exports = {
   base: "/qa4noobs/",
   title: "Curso de QA da He4rt Developers",
   theme: "yuu",
-  description: "QA",
+  description: "Um guia prático de testes para iniciantes",
   themeConfig: {
     yuu: {
       defaultDarkTheme: true,
@@ -10,7 +10,8 @@ module.exports = {
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/guide/" },
+      { text: "Guia", link: "/guide/" },
+      { text: "Colaborar", link: "https://github.com/vcwild/qa4noobs" },
       { text: "He4rt", link: "https://twitter.com/He4rtDevs" }
     ],
     sidebar: {

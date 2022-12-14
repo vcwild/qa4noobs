@@ -11,7 +11,7 @@ Dadas essas duas maneiras, podemos dizer que a abordagem proativa é a mais reco
 
 As abordagens de teste podem ser divididas em duas categorias, a **caixa-preta** e a **caixa-branca**. A diferença entre elas é que a caixa-preta foca no comportamento do sistema, enquanto a caixa-branca foca na estrutura interna do código.
 
-### **Caixa-Preta:**
+### Caixa-Preta
 
 Os testes de caixa-preta são os mais utilizados, pois eles são mais fáceis de serem implementados e não exigem conhecimento da linguagem de programação utilizada. Além disso, eles são mais fáceis de serem entendidos por pessoas que não possuem conhecimento técnico, e também são mais fáceis de serem implementados em diferentes linguagens de programação.
 
@@ -21,7 +21,7 @@ Os principais aspectos dos testes de caixa-preta são:
 - Provém abstração ao código e foca no comportamento do sistema.
 - Facilita a comunicação de testes entre módulos.
 
-### **Caixa-Branca:**
+### Caixa-Branca
 
 Testes de caixa-branca são mais difíceis de serem implementados, pois eles exigem conhecimento da linguagem de programação utilizada. Além disso, eles são mais difíceis de serem entendidos por pessoas que não possuem conhecimento técnico, e também são mais difíceis de serem implementados em diferentes linguagens de programação.
 

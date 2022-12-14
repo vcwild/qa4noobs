@@ -1,8 +1,8 @@
-# **Casos de Teste, Relatos de Incidentes e Prioridades**
+# Casos de Teste, Relatos de Incidentes e Prioridades
 
 Quando realizamos testes, é necessário que sejam escritos os casos de testes, para que possamos realizar os testes de forma organizada e padronizada. Devemos também relatar os incidentes encontrados, para que possamos corrigi-los e garantir a qualidade do software. Além  de priorizar os incidentes encontrados, para que possamos corrigi-los de acordo com a sua importância.
 
-## *Como escrever casos de testes a partir de uma historia de usuário*
+## Como escrever casos de testes a partir de uma historia de usuário
 
 - O que são histórias de usuários
 
@@ -18,7 +18,7 @@ São escritas em algumas frases com linguagem simples que delimitam o resultado 
 **Eu** quero que sejam disponibilizadas diversas formas de pagamento
 **Para** pagar meu pedido
 
-## *Especificação dos Casos de Teste*
+## Especificação dos Casos de Teste
 
 Como se escreve um caso de teste?
 
@@ -32,7 +32,7 @@ O caso deve ser autossuficiente, incluindo todas as informações necessárias p
 
 Também é necessário incluir com entradas válidas e não esperadas, bem como entradas válidas e esperadas.
 
-## *Classificação de Bugs: Severidade e Prioridade*
+## Classificação de Bugs: Severidade e Prioridade
 
 - Severidade: Define o grau ou intensidade de um defeito no que se refere ao seu impacto no software e seu funcionamento.
   - S1 - Crítica/ShowStopper: Bloqueio no teste ou funcionalidade que causa crash na aplicação ou principais caso de uso de funcionalidades chave, questões de segurança, perda grave no salvamento de dados. Bloqueios que impedem o teste de outras funções;
