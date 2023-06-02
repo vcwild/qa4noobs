@@ -47,6 +47,79 @@ Esse projeto tem como objetivo apresentar os fundamentos de testes de software, 
 
 ## ⛕ Roadmap <a id="ROADMAP"></a>
 
+<details>
+
+```mermaid
+graph LR
+
+subgraph "Fundamentos de teste"
+A((Fundamentos de teste))
+A --> B((Introdução))
+A --> C((Testes tradicionais e ágeis))
+A --> D((Interação com o time))
+A --> E((Ferramentas e seus objetivos))
+A --> F((Revisão de artefatos))
+A --> G((Como identificar o que testar))
+A --> H((Casos de testes, relatórios e erros))
+A --> I((Perguntas e respostas))
+end
+
+subgraph "Abordagens de testes"
+J((Abordagens de testes))
+J --> K((Tipos de abordagens))
+J --> L((Caixa branca))
+J --> M((Caixa preta))
+J --> N((Caixa cinza))
+end
+
+subgraph "Os diferentes tipos de testes"
+O((Os diferentes tipos de testes))
+O --> P((Tipos de testes))
+O --> Q((Teste de funcionalidade))
+O --> R((Teste de aceitação))
+O --> S((Teste exploratório))
+O --> T((Teste de sanidade))
+O --> U((Teste de regressão))
+O --> V((Teste de unidade))
+O --> W((Teste de fumaça))
+O --> X((Teste de integração))
+O --> Y((Teste não-funcional))
+O --> Z((Teste de carga))
+O --> AA((Teste de performance))
+O --> AB((Teste de stress))
+O --> AC((Teste de segurança))
+O --> AD((Teste de acessibilidade))
+O --> AE((Teste de compatibilidade))
+end
+
+subgraph "Administração de projeto"
+AF((Administração de projeto))
+AF --> AG((Introdução))
+AF --> AH((Planejamento de testes))
+AF --> AI((Priorização de requisitos))
+AF --> AJ((O ciclo de vida do software))
+AF --> AK((Método Ágil))
+AF --> AL((Método Scrum))
+AF --> AM((Método Kanban))
+AF --> AN((Método Waterfall))
+AF --> AO((Método V-Model))
+AF --> AP((Elaborando um relatório de testes))
+AF --> AQ((Verificação e validação de testes))
+end
+
+subgraph "Execução de testes"
+AR((Execução de testes))
+AR --> AS((Construindo casos de teste))
+AR --> AT((Teste manual))
+AR --> AU((Teste automatizado))
+end
+
+A --> J
+J --> O
+O --> AF
+AF --> AR
+```
+</details>
 <details open>
   <summary> <a href="src/00-FOUNDATIONS.md">Fundamentos de teste </a> </summary>
 
