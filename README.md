@@ -237,3 +237,169 @@ yarn dev
 ## 🏷️ Licença <a id="license"></a>
 
 O projeto está sob a licença AGPL-3.0. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## English Documentation
+<!-- Logo 4noobs -->
+
+<p align="center">
+  <a href="https://github.com/he4rt/4noobs" target="_blank">
+    <img src="docs/.vuepress/public/images/header_4noobs.svg">
+  </a>
+</p>
+
+<!-- Title -->
+
+<p align="center">
+  <h2 align="center">He4rt Developers QA Course</h2>
+
+  <h1 align="center">
+
+  <img src=".github/qa.gif" alt="QA Image" width="150">
+  </br>
+  <img src="https://img.shields.io/github/actions/workflow/status/vcwild/qa4noobs/build.yml?branch=main&style=flat-square&color=9468cc" alt="build" />
+  <img src="https://img.shields.io/badge/topics-42-9468cc?style=flat-square" alt="topics" />
+  <img src="https://img.shields.io/github/languages/code-size/vcwild/qa4noobs?color=9468cc&style=flat-square" alt="topics" />
+  <img src="https://img.shields.io/github/license/vcwild/qa4noobs?color=9468cc&style=flat-square" alt="license" />
+
+</h1>
+
+  <h2 align="center">
+    <a href="https://vcwild.github.io/qa4noobs/" > <strong>View the full project »</strong></a>
+  </h2>
+  <br />
+  <p align="center">
+    <a href="#about">About</a> •
+    <a href="#ROADMAP">Roadmap •</a>
+    <a href="#contribute">Contribute</a> •
+    <a href="#author">Authors</a> •
+    <a href="#license">License</a>
+  </p>
+</p>
+
+<!-- ABOUT THE PROJECT -->
+
+## ❓ About the Project <a id="about"></a>
+
+Software quality is an area of knowledge that involves ensuring that a software product meets requirements, is reliable, efficient, and effective. Software quality is an attribute that can be assessed through testing, which aims to verify if a software product meets requirements and is free of defects.
+
+This project aims to present the fundamentals of software testing, tools, and best practices for those starting in the field of software quality.
+
+<!-- ROADMAP OF PROJECT -->
+
+## ⛕ Roadmap <a id="ROADMAP"></a>
+
+<details>
+
+<summary> **Fundamentals of Testing** </summary>
+
+- [Introduction](docs/00-fundacao/00-intro.md)
+- [Traditional vs. Agile Testing](docs/00-fundacao/01-tradicionais-vs-ageis.md)
+- [Interaction with the Team](docs/00-fundacao/02-interacao.md)
+- [Tools and Their Objectives](docs/00-fundacao/03-ferramentas.md)
+- [Artifact Review](docs/00-fundacao/04-artefatos.md)
+- [Identifying What to Test](docs/00-fundacao/05-identificar.md)
+- [Test Cases, Reports, and Incidents](docs/00-fundacao/06-casos-relator-incidentes.md)
+- [Questions and Answers](docs/00-fundacao/07-questions.md)
+
+</details>
+
+<details>
+
+<summary> **Testing Approaches** </summary>
+
+- [Types of Approaches](docs/01-abordagens/00-intro.md)
+- [White Box Testing](docs/01-abordagens/01-caixa-branca.md)
+- [Black Box Testing](docs/01-abordagens/02-caixa-preta.md)
+- [Grey Box Testing](docs/01-abordagens/03-caixa-cinza.md)
+
+</details>
+
+<details>
+
+<summary> **Different Types of Testing** </summary>
+
+- [Types of Testing](docs/02-tipos/00-intro.md)
+- [Functionality Testing](docs/02-tipos/01-funcionais.md)
+- [Acceptance Testing](docs/02-tipos/02-uat.md)
+- [Exploratory Testing](docs/02-tipos/03-exploratorio.md)
+- [Sanity Testing](docs/02-tipos/04-sanidade.md)
+- [Regression Testing](docs/02-tipos/05-regressao.md)
+- [Unit Testing](docs/02-tipos/06-unidade.md)
+- [Smoke Testing](docs/02-tipos/07-smoke.md)
+- [Integration Testing](docs/02-tipos/08-integracao.md)
+- [Non-functional Testing](docs/02-tipos/09-nao-funcionais.md)
+- [Load Testing](docs/02-tipos/10-carga.md)
+- [Performance Testing](docs/02-tipos/11-performance.md)
+- [Stress Testing](docs/02-tipos/12-stress.md)
+- [Security Testing](docs/02-tipos/13-pentest.md)
+- [Accessibility Testing](docs/02-tipos/14-acessibilidade.md)
+- [Compatibility Testing](docs/02-tipos/15-compatibilidade.md)
+
+</details>
+
+<details>
+
+<summary> **Project Management** </summary>
+
+- [Introduction](docs/03-admin/00-intro.md)
+- [Test Planning](docs/03-admin/01-plan.md)
+- [Requirements Prioritization](docs/03-admin/01-priorizacao.md)
+- [Software Development Life Cycle](docs/03-admin/02-sldc.md)
+- [Agile Methodology](docs/03-admin/03-agile.md)
+- [Scrum Methodology](docs/03-admin/04-scrum.md)
+- [Kanban Methodology](docs/03-admin/05-kanban.md)
+- [Waterfall Methodology](docs/03-admin/06-waterfall.md)
+- [V-Model Methodology](docs/03-admin/07-v-model.md)
+- [Creating a Test Report](docs/03-admin/08-report.md)
+- [Test Verification and Validation](docs/03-admin/09-verificacao.md)
+
+</details>
+
+<details>
+
+<summary> **Test Execution** </summary>
+
+- [Building Test Cases](docs/04-execucao/00-intro.md)
+- [Manual Testing](docs/04-execucao/01-manual.md)
+- [Automated Testing](docs/04-execucao/02-automatizado.md)
+
+</details>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 How to Contribute <a id="contribute"></a>
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. All contributions are **greatly appreciated**.
+
+1. Fork the project.
+2. Create a branch for your new feature (`git checkout -b feature/awesomeFeature`).
+3. Commit your changes (`git commit -m 'Added awesome content'`).
+4. Push to the branch (`git push origin feature/awesomeFeature`).
+5. Open a Pull Request.
+
+### Local Development <a id="development"></a>
+
+To run the project locally, you need to have [Node.js](https://nodejs.org/en/) installed on your machine. We also recommend using [Yarn](https://yarnpkg.com/) as the package manager.
+
+Add environment variables to your path:
+
+```sh
+source scripts/enviroment.sh
+```
+Run the following commands:
+ ```sh
+# Install dependencies
+yarn
+
+# Serve with hot reload at localhost:8080
+yarn dev
+```
+### 💁‍♂️ Authors <a id="author"></a>
+
+Victor Manoel - Software Quality Engineer - @Keeabo<br>
+Victor Wildner - Software Quality Engineer - @vcwild
+
+### 🏷️ License <a id="license"></a>
+This project is licensed under the AGPL-3.0 License. See the [LICENSE](LICENSE) file for more details.
