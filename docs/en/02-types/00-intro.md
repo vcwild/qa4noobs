@@ -1,7 +1,7 @@
-# Técnicas de Teste
+# Testing Techniques
 
-As Técnicas são os métodos aplicados para avaliar um sistema ou componente com o propósito de determinar se este satisfaz as regras de negócio.
+Testing techniques are the methods applied to evaluate a system or component with the purpose of determining if it satisfies the business rules.
 
-Isto auxilia a identificar lacunas, erros, ou quaisquer elementos que diferem das regras de aceite.
+This helps identify gaps, errors, or any elements that deviate from the acceptance criteria.
 
-Estas técnicas garantem qualidade geral para o produto ou software incluindo performance, segurança, expêriencia do usuário e etc.
+These techniques ensure overall quality for the product or software, including performance, security, user experience, etc.

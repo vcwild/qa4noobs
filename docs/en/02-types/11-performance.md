@@ -1,120 +1,116 @@
-# Teste de Performance
+# Performance Testing
 
-Teste de performance é um subgrupo da Engenharia de Performance, é um processo de avaliar o comportamento de um sistema sob diversas condições extremas.
+Performance testing is a subset of Performance Engineering, a process that evaluates the behavior of a system under various extreme conditions.
 
-O principal objetivo é monitorer e melhorar indicadores chave de performance, como tempo de resposta, taxa de transferência, memória, uso de CPU e mais.
+The main goal is to monitor and improve key performance indicators such as response time, throughput, memory usage, CPU utilization, and more.
 
-Os três objetivos são:
+The three objectives are:
 
-- Velocidade: Tempo de resposta a requests;
-- Escalabilidade: Carga de usuários máxima que a aplicação aguenta;
-- Estabilidade: Determina se a API é estável sob diversas cargas;
+- **Speed:** Response time to requests;
+- **Scalability:** Maximum user load the application can handle;
+- **Stability:** Determines if the API remains stable under various loads.
 
-## Por Que Aplicar o Teste de Performance?
+## Why Perform Performance Testing?
 
-Features e Funcionalidades suportadas por um software não são as únicas preocupações. A performance de  uma API, como o seu tempo de resposta, confiabilidade, uso de recursos e escalabilidade, também importam.
+Features and functionalities supported by a software are not the only concerns. API performance, including response time, reliability, resource usage, and scalability, is also crucial.
 
-O objetivo não é localizar bugs mas sim eliminar gargalos de performance.
+The goal is not to find bugs but to eliminate performance bottlenecks.
 
-O teste é aplicado para prover os investidores com informações sobre suas aplicações, acerca dos fatores de performance. E, mais importante, o teste revela o que precisa ser melhorado antes do produto ir a mercado.
+Performance testing is applied to provide investors with insights about their applications regarding performance factors. More importantly, it reveals what needs improvement before the product goes to market.
 
-Sem este teste, o software provavelmente sofreria de problemas como, baixo desempenho sob stress, inconsistências entre diferentes sistemas operacionais e baixa usabilidade.
+Without this testing, software would likely suffer from issues such as poor performance under stress, inconsistencies across different operating systems, and low usability.
 
-O teste determinará se o software atinge parâmetros de performance sob cargas de trabalho previstas. Aplicações enviadas ao mercados com baixas métricas de performance devido a testagem inexistente ou inadequada irão, provavelmente, adquirir uma má reputação, e não atingir seus objetivos de vendas.
+The test determines if the software meets performance parameters under predicted workloads. Applications released to the market with low performance metrics due to non-existent or inadequate testing will likely gain a bad reputation and fail to meet sales objectives.
 
-Além disso,aplicações críticas como programas de lançamento espacial, equipamentos médicos e etc devem ser testados para performance a fim de garantir funcionalidade plena.
+Moreover, critical applications such as space launch programs and medical equipment must undergo performance testing to ensure full functionality.
 
-### Tipos de Teste de Performance
+### Types of Performance Testing
 
- 1. Teste de Carga: Checa a capacidade da aplicação de performar sob cargas de usuários **previsíveis**, para identificar gargalos antes que a aplicação seja lançada;
+1. **Load Testing:** Checks the application's ability to perform under **predictable** user loads to identify bottlenecks before the application is deployed.
+2. **Stress Testing:** Involves testing the application under **extreme** loads to assess how the system handles traffic and data processing. The goal is to identify the breaking point of the application.
+3. **Spike Testing:** Tests the software's reaction to a sudden spike in user-generated load.
+4. **Endurance Testing:** Ensures that the software can handle the expected load over a long period of time.
+5. **Volume Testing:** Large amounts of data are inserted into the database, and the overall system behavior is monitored. The goal is to check performance at different database volume levels.
+6. **Scalability Testing:** Determines the effectiveness of the software under increasing loads to accommodate a growing number of users. This helps plan capacity improvements for the system.
+7. **Capacity Testing:**
 
- 2. Teste de Stress: Envolve tester a aplicação sob cargas **extremas**, para auferir como o sistema lida com o tráfego e processamento de dados. O objetivo é identificar o ponto de ruptura da aplicação;
+## Common Performance Issues
 
- 3. Teste de Spike: Testa a reação do software frente a um pico súbito na carga gerada por usuários;
+Most performance problems revolve around speed, response time, load time, and poor scalability. Speed is one of the most crucial attributes; a slow application will lose potential users. Performance testing ensures that an application runs fast enough to maintain a user's attention and interest. In the following list, we examine how speed is a constant concern.
 
- 4. Teste de Resistência: É feito para garantir que o software consiga lidar com a carga prevista durante um longo período de tempo;
+- **High Load Time:** Load time is typically the period an application takes to start; it should generally be as short as possible. While some applications cannot be started in less than a minute, the loading time should ideally be under a few seconds, if possible.
+- **Inadequate Response Time:** This refers to the time taken between user input and the application's output for that input. It should generally be very fast; if the wait is too long, the user loses interest.
+- **Poor Scalability:** A software product suffers from poor scalability when it does not support the expected number of users or when it does not accommodate a satisfactory range of users.
+- **Bottleneck:** These are obstructions in a system that degrade overall performance. They occur when code or hardware errors cause a decrease in throughput under certain loads. The key to locating a bottleneck is finding the section of code causing the slowdown and fixing it. Bottlenecks are commonly resolved by fixing the lines of code or adding hardware. Some common bottlenecks include:
+  - CPU Usage;
+  - Memory Usage;
+  - Network Usage;
+  - Operating System Limitations;
+  - Disk Usage;
 
- 5. Teste de Volume: Vasta quantidade de dados é inserida no database e o comportamento geral do sistema é monitorado. O objetivo é checar a performance em níveis diferentes de volumes na database;
+## How to Perform Performance Testing
 
- 6. Teste de Escalabilidade: Determina a efetividade do software sob cargas crescentes, de forma a comportar um aumento no número de usuários. Isto ajuda a planejar melhorias de capacidade para o sistema;
- 7. Teste de Capacidade
+The methodologies for performance testing can vary, but the goal remains consistent.
 
-## Problemas de Performance Comuns
+Generic flowchart of performance testing:
 
-A maioria dos problemas de performance giram em torno de velocidade, tempo de resposta, tempo de load e baixa escalabilidade. A velocidade, é um dos atributos mais importante, uma aplicação lenta vai perder potenciais usuários. O teste de performance garante que um aplicativo seja executado rápido o suficiente para manter a atenção e interesse de um usuário. Na seguinte lista  verificamos como a velocidade é um problema constante.
+![Performance Testing Process](https://www.guru99.com/images/performance_testing_process.png)
 
-- Alto Tempo de Carregamento: Tempo de load é normalmente o período que uma aplicação leva para iniciar, ele deveria, geralmente, ser o menor possível. Enquanto algumas aplicações são impossíveis de serem iniciadas em menos de um minuto, o tempo de carregamento deveria ficar abaixo de alguns segundos se possível;
-- Tempo de Resposta Inadequado: Aqui tratamos do tempo que leva entre um input do usuário e o output da aplicação para este input. Geralmente deveria ser muito rápido, pois novamente, se a espera for longa, o usuário perde interesse;
-- Baixa Escalabilidade: Um produto software sofre de baixa escalabilidade quando ele não suporta o número previsto de usuário ou quando não acomoda um espectro satisfatório de usuários;
-- Gargalo: São obstruções em um sistema que degradam a performance geral. Acontecem quando erros de código ou hardware causam uma diminuição na taxa de transferência sob certas cargas. A chave para localizar um problema de gargalo é encontrar a seção de código que gera a lentidão, e corrigí-la. O gargalo é comumente solucionado ao corrigir as linhas de código ou adicionar hardware. Alguns comuns são:
-  - Uso de CPU;
-  - Uso de Memória;
-  - Uso de Network;
-  - Limitações do Sistema Operacional;
-  - Uso de Disco;
+1. **Identify the Test Environment:**
+   Understand the physical testing environment, production, and available testing tools. Understand details of the hardware, software, and network configurations used during testing before starting it. This process promotes greater efficiency.
+2. **Identify Performance Acceptance Criteria:**
+   This includes throughput objectives and constraints, response times, and resource allocation. It is also necessary to identify project success criteria beyond these objectives and constraints. Testers should also be empowered to define performance criteria and goals since project specifications usually will not include a wide enough variety of benchmarks for performance. If possible, finding a similar application for comparison purposes can help in defining performance goals.
+3. **Planning and Design of Performance Tests:**
+   Determine how usability will vary among end users to identify key test scenarios for all possible use cases. It is necessary to simulate a variety of end users, plan data for performance testing, and limit the metrics to be collected.
+4. **Test Environment Setup:**
+   Prepare the testing environment before its execution; also, organize tools and other resources.
+5. **Implement Test Design:**
+   Create performance tests according to the original design.
+6. **Execute the Tests**
+7. **Analyze, Tune, and Retest:**
+   Consolidate, analyze, and share test results. Then, tune specifically and retest to observe improvements or declines in performance. Since improvements generally decrease with each test, stop when the bottleneck is caused by the CPU. Then consider the option of increasing the CPU power.
 
-## Como Aplicar o Teste de Performance
+## Performance Testing Metrics: Monitored Parameters
 
-A metodologia adota para testes de performance podem variar, mas objetivo permanece.
+- CPU Usage: The amount of time a processor spends executing active threads.
+- Memory Usage: Physical space available in memory for processes on the computer.
+- Disk Time: The period during which the disk is occupied to execute a read or write request.
+- Private Bytes: Number of bytes a process has allocated that cannot be shared among other processes. These are used to measure memory leaks and memory usage.
+- Dedicated Memory: Amount of virtual memory used.
+- Memory Pages per Second: Number of pages written or read from the disk to resolve serious page faults. Serious faults are identified when code not currently under test group receives a call from somewhere else and is fetched from a disk.
+- Page Faults per Second: The overall rate at which faults are processed by the processor. Again, these occur when a process requires code from outside the group under test.
+- CPU Interrupts per Second: Average number of hardware interrupts a processor is receiving and processing every second.
+- Disk Queue Length: Average number of requests for read and writes in the queue for the selected disk during a sampling time.
+- Network Output Queue Length: Queue length of output packets. Anything above 2 means a delay, and the bottleneck needs to be resolved.
+- Total Bytes on the Network per Second: Rate at which bytes are sent and received on the interface, including framing characters.
+- Response Time: Time between user request and receipt of the first character of the response.
+- Throughput: Rate at which a computer or network receives requests per second.
+- Connection Pool Count: Number of user requests handled by a connection pool. The more requests handled by connections in the pool, the better the performance.
+- Maximum Active Sessions;
+- Hit Rates: Involves the number of SQL statements processed by data in the cache instead of expensive I/O operations. This is a good starting point for bottleneck solutions.
+- **Hits per Second:** The number of successful hits a web server receives during each second of a load test;
+- **Undo Segment:** Amount of data that can be rolled back at any given time;
+- **Database Locks:** Locking of tables and databases needs to be monitored and adjusted carefully;
+- **Longest Waits:** Monitored to determine which wait times can be reduced when dealing with how quickly data is fetched into memory;
+- **Thread Count:** The health of an application can be measured by the number of threads that are active and running;
+- **Waste Collection:** Refers to the return of unused memory back to the system. Waste collection needs to be monitored for efficiency.
 
-Fluxograma genérico do teste de performance:
+## Examples of Test Cases
 
-<img src="https://www.guru99.com/images/performance_testing_process.png" alt="Fluxograma Performance">
+1. Verify that the response time is not more than 4 seconds when 1000 users access the site simultaneously;
+2. Check if the application's response time under load is within acceptable parameters when network connectivity is low;
+3. Determine the maximum number of users the application can handle before crashing;
+4. Verify the database runtime when 500 records are read/written simultaneously;
+5. Verify the CPU and memory usage of the application and database under peak load conditions;
+6. Validate the application's response time under low, normal, moderate, and excessive load conditions.
 
-1. Identificar o Ambiente de Testes:
-   Conheça o seu ambiente físico de testes, de produção e quais ferramentes de testes estão disponíveis. Entenda detalhes do hardware, software e configurações de networks usadas durante a testagem, antes de inicia-la. Este processo promove uma maior eficiência.
-2. Identifique os Critérios de Aceite da Performance:
-   Isto inclui objetivos e restrições da taxa de transferência, tempos de resposta e aloção de recuros. Também é necessário para identificar os critérios de sucesso do projeto além destes objetivos e restrições. Testers tambem devem estar empoderados para definir os critérios de performance e objetivos, uma vez que, geralmente, as especificações do projeto não incluirão uma variedade ampla o suficiente de benchmarks para performance. Quando possível encontrar uma aplicação similar para de fins de comparação pode auxiliar na definição dos objetivos de performance.
-3. Planejamento e Design dos Testes de Performance:
-   Determine o quanto a usabilidade irá variar entre os usuários finais para identificar cenários chave de testes para todos os casos de uso possíveis. É necessário simular uma variedade de usuários finais, planejar os dados para testes de performance e delimitar quais métricas serão coletadas.
-4. Configuração do Ambiente de Testes:
-   Prepare o ambiente de testes antes de sua execução, além disso, organize ferramentas e demais recursos.
-5. Implemente o Design de Testes:
-   Crie os testes de performance de acordo com o seu design original.
-6. Execute os Testes
-7. Analise, Ajuste e Reteste:
-   Consolide, analise e compartilhe os resultados dos testes. Então, ajuste de forma específica e retestes para observar se existem melhorias ou declínios na performance. Uma vez que melhorias geralmente diminuem a cada teste, pare quando o gargalo é causado pela CPU. Para então poder considerar a opção de aumento do poder da CPU.
+## Performance Testing Tools
 
-## Métricas do Teste de Performance: Parâmetros Monitorados
-
-- Uso do Processador: A quantidade de tempo que um processador gasta executando threads ativas;
-- Uso de Memória: Espaço físico disponível em memória para processos no computador;
-- Tempo de Disco: Período em que o disco ocupa-se para executar uma request de leitura ou escrita (read/write);
-- Bytes Privados: número de bytes que um processo alocou que não podem ser compartilhados entre demais processos. Estes são utilizados para medir vazamentos e uso de memória.
-- Memória Dedicada: quantidade de memória virtual utilizada;
-- Memory pages por segundo: Número de páginas escritas ou lidas a partir do disco com o objetivo de resolver falhas graves na página. Falhas graves identificam-se quando um código que não do grupo atualmente sob teste recebe um call de algum outro lugar e é buscado de um disco;
-- Falhas na Página por Segundo: A taxa geral em que falhas são processadas pelo processador. Novamente, ocorrem quando um processo requer código de fora do grupo sob teste;
-- Interrupções da CPU por Segundos: Número médio de interrupções no hardware que um processador esta recebendo e processando a cada segundo;
-- Comprimenta da Fila do Disco: Número médio de requests para read e writes na fila para o disco selecionado durante uma amostragem de tempo;
-- Comprimento da Fila do Output na Network: Comprimento da fila dos pacotes de output. Qualquer coisa superior a 2 significa um delay, e o gargalo precisa ser solucionado
-- Total de Bytes na Network por Segundo: Taxa em que bytes são enviados e recebidos na interface, incluindo caracteres de enquadramento;
-- Tempo de Resposta: Tempo entre a request do usuário e o recebimento do primeiro caracter da resposta;
-- Taxa de Transferência: Taxa em que um computador ou rede recebe requests por segundo;
-- Quantidade do Pool de Conexões: Número de requests de usuários que são atentidas por um pool de conexões. Quanto mais requests são atendidos por conexões na pool, melhor é a performance;
-- Máximo de Sessões Ativas;
-- Taxas de Acerto: Tem a ver com o número de statements SQL processados por dados em cache ao invez de operações I/O caras. Aqui é um bom ponto de partida para soluções de gargalo
-- Acertos por Segundo: O número de acertos um servidor web durante cada segundo de um teste de carga;
-- Segmento de Reversão: Quantidade de dados que podem ser revertidos a qualquer momento;
-- Travas da Database: O trancamento de tables e databases precisão ser monitorados e ajustados com cuidado;
-- Maiores Esperas: São monitoradas para determinar quais tempos de espera podem ser diminuídos ao lidas com o quão rápido os dados são buscados na memória;
-- Contagem de Threads: A saúde de uma aplicação pode ser medida pelo número de threads que estão ativas e em execução;
-- Coleta de Lixo: Refere-se ao retorno de memória não utilizada de volta ao sistema. A coleta de lixo precisa ser monitorada para eficiência;
-
-## Exemplos de Casos de Teste
-
-1. Verifique que o tempo de resposta é de não mais que 4 segundos quando 1000 usuários acessarem o site simultâneamente;
-2. Verifique se o tempo de resposta da aplicação sob carga esta dentro dos parâmetros aceitáveis quando a conectivade da rede está baixa;
-3. Cheque qual o número máximo de usuários que a aplicação aguenta antes de crashar;
-4. Verifique o tempo de execução do banco de dados quando 500 registros são lidos/escritos simultâneamente;
-5. Verifique a CPU e uso de memória da aplicação e database em condições de pico da carga;
-6. Valide o tempo de resposta da aplicação sob condições de carga baixas, normais, moderadas e excessivas;
-
-## Ferramentas para Teste de Performance
-
-Algumas das ferramentas mais populares para teste de performance são:
+Some of the most popular tools for performance testing are:
 
 - [LoadNinja](https://bit.ly/3knoPpQ)
 - [HeadSpin](https://bit.ly/3D8p93N)
 - [BlazeMeter](https://guru99.live/vVYFyu)
 - [HPLoadRunner](https://www.guru99.com/loadrunner-v12-tutorials.html)
 - [JMeter](https://www.guru99.com/jmeter-tutorials.html)
+

@@ -1,48 +1,46 @@
-# Teste de Fumaça
+# Smoke Testing
 
-Técnica que verifica se a versão implantada do software está estável ou não.
+A technique that verifies whether the deployed version of the software is stable or not.
 
-Consiste em uma bateria mínima de teste aplicadas a cada build do software para verificar suas funcionalidades.
+It consists of a minimal set of tests applied to each software build to verify its functionalities.
 
-    Também conhecido como "Teste de Verificação da Build" ou "Teste de Confiança".
+    Also known as "Build Verification Testing" or "Confidence Testing."
 
-Em termos simples o teste de fumaça valida se as features vitais estão funcionando e se não existem quaisquer showstoppers na build sob testes.
+In simple terms, smoke testing validates if vital features are working and if there are no showstoppers in the build under test.
 
-É um pequeno e rápido teste de regressão apenas para testar as principais funcionalidades, de forma a determinar se a build esta falha a ponto de tornar demais testes um desperdício de tempo e recursos.
+It is a quick and small regression test only to test the core functionalities, determining if the build is so faulty that it renders further tests a waste of time and resources.
 
-## Teste de Fumaça x Teste de Sanidade
+## Smoke Testing vs. Sanity Testing
 
-- *Teste de fumaça* verifica funcionalidades críticas enquanto o *Teste de Sanidade* verifica novas funcionalidades como bug fixes.
-- *Teste de fumaça* é documentado ou roteirizado, enquanto o *Teste de Sanidade*, não é.
-- O *Teste de Fumaça* verifica a totalidade do sistema do começo ao fim, enquanto o *Teste de Sanidade* verifica apenas um componente individual.
+- *Smoke Testing* verifies critical functionalities, while *Sanity Testing* checks new functionalities like bug fixes.
+- *Smoke Testing* is documented or scripted, while *Sanity Testing* is not.
+- *Smoke Testing* checks the entirety of the system from start to end, while *Sanity Testing* checks only an individual component.
 
-## Quando aplicar o Teste de Fumaça?
+## When to Apply Smoke Testing?
 
-Aplicado sempre que novas funcionalidades forem desenvolvidas e integradas com uma build já existente, que é então implantada no ambiente de QA, garantindo que todas as funcionalidades estejam, ou não, funcionando perfeitamente.
+Applied whenever new features are developed and integrated with an existing build, which is then deployed in the QA environment, ensuring all functionalities are working perfectly or not.
 
-<img src="https://www.guru99.com/images/3-2016/032816_1308_SmokeTestin1.png" alt="Fluxograma Testes">
+<img src="https://www.guru99.com/images/3-2016/032816_1308_SmokeTestin1.png" alt="Testing Flowchart">
 
-Caso a build seja positivamente verificada pelo time de QA no Teste de Fumaça, a equipe continua com a testagem funcional.
+If the build is positively verified by the QA team in Smoke Testing, the team proceeds with functional testing.
 
-### Quais os motivos para aplicar o Teste de Fumaça?
+### Reasons to Apply Smoke Testing:
 
-- Todos os showstoppers serão identificados aqui;
+- All showstoppers will be identified here.
+- It is performed after a build is handed over to QA. Hence, most defects are identified in the early stages of software development.
+- With smoke testing, we simplify the detection and correction of major defects.
 
-- É feito após uma build ser encaminhada ao QA. Assim a maioria dos defeitos são identificados em estágios iniciais do desenvolvimento de software;
+## How to Apply Smoke Testing?
 
-- Com o teste de fumaça, nós simplificamos a detecção e correção dos principais defeitos;
+This technique is generally done manually, although achieving the same effect through automation is also possible and varies from company to company.
 
-## Como aplicar o Teste de Fumaça?
+- **Manual Testing:**
+    Performed to ensure that critical paths' navigation is operating as expected and not hindering functionality.
+    Once the build is handed over to QA, high-priority test cases should be taken to locate major defects in the system.
+    If the build passes, we proceed to functional testing. If the test fails, the build is rejected and sent back to the development team, restarting the cycle.
 
-Esta técnica é, geralmente, feita de forma manual embora exista a possibilidade de atingir o mesmo efeito através da automação. Pode variar de empresa pra empresa.
+- **Automated Testing:**
+   Automation is used for regression testing; however, we can also apply it to these test cases, streamlining the verification process of new builds.
+   Instead of the inefficient process of repeating all tests whenever a new build is implemented, we can automate the necessary steps, saving time and resources.
 
-- **Testagem Manual:**
-    Realizado para garantir que a navegação de paths críticos esteja operando como esperando e não impeça a funcionalidade.
-    Uma vez que a build é encaminhada ao QA, casos de teste de alta prioridade devem ser tomados para localizar defeitos principais no sistema.
-    Caso a build seja aprovada, contniuamos a testagem funcional. Caso o teste falhe, a build é rejeitada e encaminhada de volta a equipe de desenvolvimento, recomeçando o ciclo.
-
-- **Testagem Automatizada**
-   A automatização é utilizada para a testagem de regressão, entretanto, podemos também aplicá-la para casos de teste desta modalidade, agilizando todo o processo de verificação de novas builds.
-   Ao invés do processo ineficiente de repetir todos os testes sempre que uma nova build for implementada, podemos automatizar os passos necessários, poupando tempo e recursos.
-
-   <img src=https://www.guru99.com/images/3-2016/032816_1308_SmokeTestin2.png alt= "Fluxograma Ciclo Testagem">
+   <img src=https://www.guru99.com/images/3-2016/032816_1308_SmokeTestin2.png alt= "Testing Cycle Flowchart">
