@@ -1,41 +1,39 @@
-# Modelo V
+# V-Model
 
-É uma estrutura de SLDC altamente disciplinada que possui uma faze de testes paralela a cada etapa de desenvolvimento.
+It is a highly disciplined SDLC framework that has a parallel testing phase for each development step.
 
-O modelo V é uma extensão da modalidade de Cascata onde o desenvolvimento e testes são executados sequencialmente. Também conhecido como modelo de Validação ou de Verificação.
+The V-Model is an extension of the Waterfall model where development and testing are performed sequentially. It is also known as the Validation or Verification model.
 
-<img src="https://www.guru99.com/images/6-2015/052715_0904_GuidetoSDLC3.png" alt="Fluxograma Modelo V">
+![V-Model Flowchart](https://www.guru99.com/images/6-2015/052715_0904_GuidetoSDLC3.png)
 
-## Exemplificação Cascata vs V
+## Comparison of Waterfall vs. V-Model
 
-Considere a seguinte sequência de passos:
+Consider the following sequence of steps:
 
-- Fase de Coleta das Regras de Negócio: Coleta de tantas informações quanto possíveis acerca dos detalhes e especificações do software desejado pelo cliente.
+- Business Requirement Gathering Phase: Gathering as much information as possible about the details and specifications of the software desired by the client.
 
-- Fase de Design: Planejamento da linguagem de programação a ser utilizada, database, etc. Que deve adequar-se ao projeto, bem como funções de alto nível e arquitetura.
+- Design Phase: Planning the programming language to be used, the database, etc. It should fit the project, as well as high-level functions and architecture.
 
-- Fase de Construção: Após o Design, passamos a construir de fato o código do software.
+- Construction Phase: After the Design, we proceed to actually build the software code.
 
-- Fase de Testes: Após, testamos o software para verificar que foi feito conforme as especificações fornecidas pelo cliente.
+- Testing Phase: Afterward, we test the software to verify that it has been created according to the specifications provided by the client.
 
-- Fase de Implementação: Implementa a aplicação no ambiente designado.
+- Implementation Phase: It implements the application in the designated environment.
 
-- Fase de Manutenção: Uma vez que o sistema está pronto para uso, pode ser necessário alterar o código mais tarde a depender de solicitações dos usuários.
+- Maintenance Phase: Once the system is ready for use, it may be necessary to change the code later depending on user requests.
 
-**Todas estas etapas constituem o modelo CASCATA, de desenvolvimento.**
+**All these steps constitute the WATERFALL development model.**
 
-### Problemas com o modelo Cascata
+### Issues with the Waterfall Model
 
-Como pode observar, os testes são realizados apenas após a implementação estar finalizada.
+As you can see, testing is only performed after the implementation is completed. However, when working on a large project where systems are complex, it's easy to overlook key details in the initial phase. In such cases, a completely incorrect product will be delivered to the client, and there is the possibility of starting the entire project over.
 
-Mas se você estiver trabalhando em um projeto grande, onde os sistemas são complexos, é fácil perder detalhes chave na própria fase inicial. Nestes casos, um produto completamente errado será entregue ao cliente e existe a possibilidade de recomeçar todo o projeto.
+In this way, the costs of correcting defects increase as we progress in the SDLC. The earlier they are detected, the cheaper they will be to fix.
 
-Desta forma, os custos de corrigir defeitos aumentam a medida que progredimos no SDLC. Quanto mais cedo detectados, mais baratos serão para corrigir.
+## Solution: V-Model
 
-## Solução: Modelo V
+To address these conflicts, the V-Model was developed so that each development phase has a corresponding testing phase.
 
-Para endereçar estes conflitos, o modelo de testagem em V foi desenvolvido de forma que cada fase de desenvolvimento possui uma fase de testes correspondente.
+In addition to the V-Model, there are other categories of iterative development where each phase adds functionality to the project in stages. Each stage comprises an independent group of cycles for testing and development.
 
-Além do modelo V existem outras categorias de desenvolvimento iterativo, onde cada fase adiciona uma funcionalidade ao projeto em etapas. Cada etapa compreende um grupo independente de ciclos para teste e desenvolvimento.
-
-Exemplos destes métodos iterativos são o Desenvolvimento Ágil e o Desenvolvimento de Aplicação Rápida.
+Examples of these iterative methods are Agile Development and Rapid Application Development.

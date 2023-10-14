@@ -1,266 +1,263 @@
-# Planejamento de Testes
+# Test Planning
 
-Um Plano de Testes é um documento detalhado que descreve a estratégia de testes, objetivos, agenda, estimativas, entregáveis e recursos necessários para desenvolver os testes em um produto de software.
+A Test Plan is a detailed document that describes the testing strategy, objectives, schedule, estimates, deliverables, and resources required to perform testing on a software product.
 
-O plano auxilia a determinar o esforço necessário para validar a qualidade da aplicação sob testes. Este plano funciona como um blueprint para conduzir as atividades de teste como um processo definido, o que é monitorado de perto e controlado pelo Gerente de Testes.
+The plan helps determine the effort needed to validate the quality of the application under test. This plan serves as a blueprint for conducting testing activities as a defined process, which is closely monitored and controlled by the Test Manager.
 
-De acordo com a definição da ISTQB
+According to the ISTQB definition:
 
-     "O Plano de Testes é um documento que descreve o escopo, abordagem, recursos e agenda das atividades de teste planejadas"
+     "The Test Plan is a document that describes the scope, approach, resources, and schedule of planned test activities."
 
-## Importância do Plano de Testes
+## Importance of Test Planning
 
-Os benefícios do documento Plano de Testes são variados:
+The benefits of the Test Plan document are diverse:
 
-- Auxilia pessoas fora do time de teste, como desenvolvedores, gerentes de business e clientes a entender os detalhes da testagem.
-- O plano guia o raciocínio, é como um livro de regras a serem seguidas.
-- Aspectos importantes como estimativa de testes, escopo dos testes, estratégias, etc são documentadas no Plano, para que possam ser revisadas pelo Time de Gerência e reutilizada para outros projetos.
+- It aids people outside the testing team, such as developers, business managers, and clients, in understanding the details of testing.
+- The plan guides reasoning and acts as a set of rules to be followed.
+- Important aspects such as test estimation, test scope, strategies, etc., are documented in the Plan so that they can be reviewed by the Management Team and reused for other projects.
 
-## Como Escrever um Plano de Testes
+## How to Write a Test Plan
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_3.png" alt="Fluxograma Plano de Testes">
+![Test Plan Flowchart](https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_3.png)
 
-### 1. Analise o Produto
+### 1. Analyze the Product
 
-Como você pode testar um produto sem qualquer informação dele? Não pode. É necessário profunda familiaridade com um produto antes de testa-lo.
+How can you test a product without any information about it? You can't. You need a deep understanding of the product before testing it.
 
-O produto sob testes é Guru99 Site Bancário. Deve-se pesquisar clientes, usuários finais e conhecer suas necessidades e expectativas do aplicativo.
+The product under test is the Guru99 Banking Site. Research customers, end-users, and their needs and expectations from the application.
 
-- Quem irá usar o Site?
-- Qual sua função?
-- Como funcionará?
-- Quais softwares/hardwares o produto utiliza?
+- Who will use the site?
+- What is its function?
+- How will it work?
+- What software/hardware does the product use?
 
-A ideia é sondar o produto e revisar sua documentação, isto auxiliará a entender todas as features do projeto bem como sua usabilidade. Em caso de não entendimento, pode-se conduzir entrevistas com clientes, desenvolvedores e designers para maiores informações.
+The idea is to explore the product and review its documentation, which will help understand all the project's features and usability. If there is any lack of understanding, interviews can be conducted with customers, developers, and designers for further information.
 
-### 2. Desenvolve a Estratégia de Testes
+### 2. Develop the Test Strategy
 
-A Estratégia de Testes é um passo crítico ao elaborar um Plano de Testes dentro da testagem de software. Uma estratégia é documento de alto nível, que é geralmente desenvolvida pelo Gerente de Testes. O documento define:
+The Test Strategy is a critical step in creating a Test Plan within software testing. The strategy is a high-level document, typically developed by the Test Manager. The document defines:
 
-- Os objetivos de teste do projeto, bem como os meios para atingí-los.
-- Determina o esforço e custos necessários.
+- The test project's objectives and the means to achieve them.
+- Determines the required effort and costs.
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_6.png" alt="Fluxograma do Desenvolvimento de Estratégia">
+![Development of Strategy Flowchart](https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_6.png)
 
-#### 2.1. Defina o Escopo de Testes
+#### 2.1. Define the Test Scope
 
-Antes de iniciar qualquer atividade de teste, o escopo deve ser definido.
+Before starting any testing activity, the scope must be defined.
 
-- Componentes do sistema a serem testados (hardware,software,middleware, etc) são definidas segundo o escopo.
-- Os componentes do sistema que não serão testados também precisão estar claramente definidos como não fazendo parte do escopo.
+- Components of the system to be tested (hardware, software, middleware, etc.) are defined according to the scope.
+- Components of the system that will not be tested must also be clearly defined as not within the scope.
 
-Definir o Escopo de seu projeto de testes é importante para todos os investidores, uma vez que ajuda a:
+Defining the scope of your test project is essential for all stakeholders, as it provides everyone with reliable and accurate information about the testing to be carried out. All project members will have a clear understanding of what will be tested and what will not.
 
-- Provê a todos com informação confiável e precisa da testagem a ser elaborada.
-- Todos os membros do projeto terão entendimento claro do que será testado, e do que não será.
+##### 2.1.1. How to Determine Test Scope
 
-##### 2.1.1. Como determinar o Escopo de Testes
+- Precise Customer Requirements
+- Project Budget
+- Product Specification
+- Skills and Talents in the Test Team
 
-- Requerimentos de Cliente Precisos
-- Orçamento do Projeto
-- Especificação de Produto
-- Habilidades e Talentos no Time de Testes
+Now, you need to define clearly what is within and outside the scope.
 
-Agora deve-se definir claramente o que esta dentro e fora do escopo.
+#### 2.2. Identifying Test Types
 
-#### 2.2. Identificando o Tipo de Testes
+A test type is a standard procedure that provides an expected outcome for tests.
 
-Um tipo de teste é um procedimento padrão que provê um resultado esperado para os testes.
+Each type of testing is designed to identify a specific type of bug in the product. However, all types share the common goal of early defect identification before the client release.
 
-Cada tipo de testagem é formulada para identificar um tipo específico de bug no produto. Mas, todos os tipos possuem como alvo atingir o objetivo comum de identificação antecipada dos defeitos, antes do lançamento ao cliente.
+Commonly used types include:
 
-Os tipos comumente utilizados são:
+- Unit Testing: Verifies the smallest verifiable software parts in the application.
+- API Testing: Validates the API created for the application.
+- Integration Testing: Individual modules are combined and tested as a group.
+- System Testing: Conducted on a complete and integrated system to evaluate compliance with requirements.
+- Installation/Uninstallation Testing: Focuses on what customers need to do to successfully install/uninstall, configure/remove new software.
+- Agile Testing: Evaluates the system according to agile methodology.
 
-- Teste Unitário: Verifica as menores partes de software verificável na aplicação
-- Teste de API: Valida a API criada para a aplicação
-- Teste de Integração: Módulos individuais são combinados e testados como um grupo
-- Teste de Sistemas: Conduzidos em um sistema completo e integrado para avaliar se está em conformidade com os requerimentos
-- Teste de Instalação/Desinstalação: Foca no que os clientes precisarão fazer para instalar/desinstalar e configurar/remover o novo software com sucesso
-- Teste Ágil: Avalia o sistema de acordo com a metodologia ágil
+There are a myriad of test types for the product, and the Test Manager should define the appropriate prioritization based on the application's functions and within the defined budget.
 
-Existe uma infinidade de tipos de teste para o produto, deverá o Gerente de Testes definir a Priorização adequada, com base nas funções da aplicação e respeitando o orçamento definido.
+#### 2.3. Document Risks and Issues
 
-#### 2.3. Documento Riscos e Problemas
+Risks are future and uncertain events with the probability of occurrence and the potential for loss. When the risk actually occurs, it becomes an "issue."
 
-Riscos são eventos futuros e incertos com probabilidade de ocorrência e potencial de perda. Quando o risco ocorre de fato, torna-se um "problema".
+Examples of documentation risks include:
 
-Exemplos de Riscos para documentação:
+- Team member lacks required skills: Plan training sessions.
+- The schedule is tight, making it difficult to complete requirements on time: Determine test priority for each activity.
+- Test Manager lacks adequate management skills: Plan training sessions for leadership.
+- A lack of cooperation negatively affects team productivity: Encourage each member in their tasks and inspire them to greater efforts.
+- Incorrect budget estimate and additional costs: Establish scope before starting work, pay due attention to planning, and continuously measure progress.
 
-- Membro da equipe não possui habilidade necessária: Planeje sessões de treinamento
-- O cronograma é apertado, tornando difícil completar os requisitos a tempo: Determine prioridade de testes para cada atividade
-- Gerente de Testes possui habilidades de gerência inadequadas: Planeje sessões de treinamento para lideranças
-- Uma falta de cooperação negativamente afeta a produtividade da equipe: Encoraje cada membro em suas tarefas, e inspire-os a maiores esforços
-- Estimativa de orçamento errada e custos adicionais: Estabeleça o escopo antes de iniciar o trabalho, preste atenção devida ao planejamento e constantemente meça os progressos
+#### 2.4. Create Test Logic
 
-#### 2.4. Crie Lógicas de Teste
+In test logic, the Manager must answer the following questions:
 
-Na lógica de testes, o Gerente deverá responder as seguintes perguntas:
+- Who will perform the test?
+- When will the test take place?
 
-- Quem irá testar?
-- Quando o teste irá ocorrer?
+You may not know the names of each tester, but the type of tester can be defined.
 
-Você pode não conhecer exatamente os nomes de cada tester, mas o tipo de tester pode ser definido.
+To select the right member for a specific task, you must consider whether their skills qualify them for the task and estimate the available budget. Incorrect selection can cause delays or project failure.
 
-Para selecionar o membro correto para uma tarefa específica, deve-se considerar se suas habilidades qualificam-se para a tarefa ou não, também estimando o orçamento disponível. Selecionar errôneamente pode causar atrasos ou falha no projeto.
+Possessing the following skills is most ideal for testing:
 
-Possuir as seguintes habilidades é o mais ideal para aplicação de testes:
+- Ability to understand from a customer's perspective.
+- Strong desire for quality.
+- Attention to detail.
+- Good cooperation.
 
-- Capacidade de compreensão do ponto de vista dos clientes
-- Forte desejo por qualidade
-- Atenção a Detalhes
-- Boa cooperação
+In your project, the tester will take the reins of execution. Based on the budget, you can select outsourcing.
 
-Em seu projeto, o tester irá tomar as rédeas da execução. Baseado no orçamento, pode-se selecionar terceirizações.
+*When will the test occur?*
 
-*Quando o teste ocorrerá?*
+Test activities should be associated with development activities and should start when all necessary items exist.
 
-Atividades de teste devem ser associadas com atividades de desenvolvimento, devendo iniciar-se quando todos os itens necessários existirem.
+![Items Required to Start Testing](https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_8.png)
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_8.png" alt="Itens Necessários Para Início de Testes">
+### 3. Set Test Objectives
 
-### 3. Defina objetivos para o teste
+This involves the overall goal and achievement of the best execution. The goal of testing is to find as many defects as possible, ensuring that the software is bug-free before release.
 
-Consiste no objetivo geral e conquista da melhor execução. O objetivo dos testes é encontrar tantos defeitos quanto o possível, garantindo que o software seja livre de bugs antes de seu lançamento.
+To set objectives, you need to:
 
-Para definir objetivos, deve-se:
+- List all features (functionality, performance, GUI, etc.) that may require testing.
+- Define the target or objective of the test based on the above features.
 
-- Listar todas as features (funcionalidade, performance, GUI, etc) que podem precisar de testes.
-- Definir o alvo, ou objetivo, do teste baseado nas características acima.
+### 4. Define Test Criteria
 
-### 4. Defina os critérios de teste
+Criteria are standards or rules on which test procedures are based, and there are two types:
 
-Os critérios são padrões ou regras nas quais os procedimentos de teste baseiam-se, existem dois tipos:
+#### 4.1. Suspension Criteria
 
-#### 4.1. Critério de Suspensão
+Specify critical suspension criteria for a test. If these criteria are met during testing, the active test cycle will be *suspended* until the criteria are resolved.
 
-Especifique os critérios de suspensão críticos para um teste. Caso estes sejam atendidos durante a testagem, o ciclo de testes ativos será *suspendido* até que os critérios sejam solucionados.
+*Example:* If the team reports that 40% of cases have failed, you must suspend testing until the development team fixes all cases.
 
-*Exemplo:* Caso os relatórios da equipe indiquem que 40% dos casos falharam, você deve suspender a testagem até que o time de desenvolvimento corrija todos os casos.
+![Suspension Criteria Flowchart](https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_10.png)
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_10.png" alt="Fluxograma Critérios de Suspensão">
+#### 4.2. Exit Criteria
 
-#### 4.2. Critérios de Saída
+Exit criteria specify the guidelines that denote success in a testing phase. Exit criteria are the target results of tests required before proceeding to the next development phase.
+E.g., 95% of all critical test cases must pass.
 
-Especificam as diretrizes que denotam sucesso em uma fase de testes. Os critérios de saída são resultados alvo dos testes, necessários antes de proceder para a proxima fase de desenvolvimento.
-Ex: 95%  de todos os casos de teste críticos devem passar.
+Some methods for defining exit criteria consist of specifying execution and success rates.
 
-Alguns métodos para definir os critérios de saída consistem na especificação de taxas par execução e sucesso.
+- Execution Rate: It is the ratio of the number of executed test cases to the total number of cases.
+- Success Rate: The ratio of tests that have passed to the total number of executed test cases.
 
-- Taxa de execução: É a relação entre o número de casos de teste executados/total de casos.
-- Taxa de Sucesso: Relação entre número de testes que passaram/casos de teste executados.
+These data can be collected in test metric documents.
 
-Estes dados podem ser coletados em documentos de Metrica para Testes.
+- The Execution Rate must necessarily be 100%, unless a clear reason is provided.
+- The Success Rate depends on the project's scope, but it is ideal for it to be as high as possible.
 
-- Taxa de Execução deve ne cessáriamente ser de 100%, a não ser que uma razão clara seja provida.
-- Taxa de Suceso depende do escopo do projeto, mas o ideal é que seja tão alta quanto o possível.
+### 5. Resource Planning
 
-### 5. Planejamento de recursos
+Resource planning is a detailed summary of all types of resources required to complete a task or project. Resources can be human, equipment, and materials needed to finish a project.
 
-Planejamento de recursos é um sumário detalhado de todos os tipos de recursos necessários para completar um projeto de tarefa. Recursos podem ser humanos, equipamento e materiais necessários para finaliza um projeto.
+Resource planning is an important factor in test planning as it helps determine the number of resources to be employed in the project. Therefore, the Test Manager can accurately develop the schedule and estimates for the project.
 
-O planejamento de recursos é fator importante para o planejamento de testes uma vez que auxilia a determinar o número de recursos a serem empregados no projeto. Portanto, o Gerente de Testes pode elaborar corretamente o cronograma e estimativas para o projeto.
-
-- Recursos Humanos:
-  - Gerente de Teste:
-        1. Administra todo o Projeto
-        2. Define diretrizes
-        3. Adquire os recursos necessários
-        4. Identifica e descreve técnicas/ferramentas/arquitetura de automação apropriadas
+- Human Resources:
+  - Test Manager:
+        1. Manages the entire project.
+        2. Defines guidelines.
+        3. Acquires the necessary resources.
+        4. Identifies and describes appropriate automation techniques/tools/architecture.
   - Tester:
-       1. Executa os testes, cataloga resultados, reporta defeitos
-       2. Pode ser interno ou terceirizado, com base no orçamento disponível
-       3. Para tarefas que requeiram baixa especialização, é recomentdado o uso de equipe terceirizada para poupar custos
-  - Desenvolvedor em Teste:
-      1. Implementa casos de testes, programa de testes, baterias etc.
+       1. Executes tests, catalogs results, reports defects.
+       2. Can be internal or outsourced, depending on the available budget.
+       3. For tasks that require low specialization, it is recommended to use an outsourced team to save costs.
+  - Test Developer:
+      1. Implements test cases, test programs, test batteries, etc.
 
-  - Administrador de Testes:
-     1. Constrói e garante que Ambiente de Testes e seus recursos sejam administrados e recebam manutenção
-     2. Provê apoio ao Tester para uso do ambiente de testes
-  - Membros SQA:
-     1. Responsável pelo Quality Assurance
-     2. Verifica e confirma se o processo de testes atende aos requerimentos especificados
+  - Test Administrator:
+     1. Builds and ensures that the test environment and its resources are managed and maintained.
+     2. Provides support to the tester for using the test environment.
+  - SQA Members:
+     1. Responsible for Quality Assurance.
+     2. Verify and confirm that the test process meets specified requirements.
 
-#### 5.1. Recursos do Sistema
+#### 5.1. System Resources
 
-Para testar um aplicativo web, deve-se planejar os recursos de acordo com:
+To test a web application, resources must be planned according to:
 
-- Servidor:
-  - Instala a aplicação web sob testes
-  - Inclui um servidor web separado, servidor para database e servidor para aplicação, caso seja aplicável
-- Ferramenta de Testes:
-  - A ferramentas de teste é usada para automatizar os processos, simular operação apropriada de usuários e gerar resultados
-  - Existem diversas ferramentas disponíveis para este uso (Selenium, QTP, etc)
-- Rede:
-  - A rede deve incluir LAN e Internet para simular condições de negócios reais, bem como o ambiente de usuário
-- Computador:
-  - O computador em que usuários comumente acessam o servidor web
+- Server:
+  - Installs the web application under test.
+  - Includes a separate web server, database server, and application server, if applicable.
+- Testing Tool:
+  - The testing tool is used to automate processes, simulate proper user operations, and generate results.
+  - There are various tools available for this purpose (Selenium, QTP, etc.).
+- Network:
+  - The network must include LAN and the Internet to simulate real business conditions and the user environment.
+- Computer:
+  - The computer on which users commonly access the web server.
 
-### 6. Planeje o ambiente de testes
+### 6. Test Environment Planning
 
-*O que é o ambiente de testes?*
+*What is the test environment?*
 
-Consiste em setup de software e hardware em que o time de teste desenvolve os casos. Caracteriza-se de um ambiente real de negócios e usuários, bem como ambientes físicos, como servidores e ambiente para execução de front-end.
+It consists of the software and hardware setup in which the test team develops test cases. It is characterized by a real business and user environment, as well as physical environments such as servers and front-end execution.
 
-#### 6.1. Como Configurar o Ambiente de Testes
+#### 6.1. How to Set Up the Test Environment
 
-Pressuponto cooperação entre time de desenvolvimento e time de testes, pergunte aos desenvolvedores todo o necessário para compreender a aplicação sob testes de forma clara.
+Assuming cooperation between the development team and the test team, ask the developers for all the necessary information to understand the application under test clearly.
 
-- Qual o máximo de usuários conectados ativamente o website pode aguentar de forma simultânea?
-- Qual os requerimentos de hardware/software para instalação do website?
-- O usuário precisa de alguma configuração específica para navegar no website?
+- What is the maximum number of actively connected users the website can handle simultaneously?
+- What are the hardware/software requirements for website installation?
+- Does the user need any specific configurations to browse the website?
 
-### 7. Cronograma e Estimativa
+### 7. Schedule and Estimation
 
-Suponha que todo o projeto seja subdivido em tarefas menores e adicionados na estimativa da seguinte forma:
+Suppose that the entire project is subdivided into smaller tasks and added to the estimate as follows:
 
-- Criação das Especificações de Teste:
-  - Elaborado pelo Desginer de Testes
-  - 170 horas de trabalho
-- Execução de Testes:
-  - Tester, Administrador de Testes
-  - 80 horas de trabalho
-- Relatório de Testes:
-  - Tester
-  - 10 horas de trabalho
-- Entrega de Testes:
-  - 20 horas de trabalho
-- Total: 280 Horas de Trabalho.
+- Creation of Test Specifications:
+  - Developed by the Test Designer.
+  - 170 hours of work.
+- Test Execution:
+  - Tester, Test Administrator.
+  - 80 hours of work.
+- Test Report:
+  - Tester.
+  - 10 hours of work.
+- Test Delivery:
+  - 20 hours of work.
+- Total: 280 Hours of Work.
 
-Assim, pode-se elaborar o cronograma para completar todas as tarefas.
+This way, you can create a schedule to complete all the tasks.
 
-Elaborar cronogramas é um termo comum em administração de projetos. Ao criar uma agenda solida no Planejamento de Testes, o Gerente pode usar como ferramenta para monitorar o progresso e controlar custos adicionais.
+Creating schedules is a common term in project management. By creating a solid schedule in Test Planning, the Manager can use it as a tool to monitor progress and control additional costs.
 
-Para elaborar o cronograma de um projeto, o Gerente de Testes precisa de diversas informações, tais como:
+To create a project schedule, the Test Manager needs various information, such as:
 
-- Prazos de Funcionários e do Projeto: Dias de trabalho, prazo do projeto e recursos disponíveis são fatores que afetam o cronograma
-- Estimativa do Projeto: Com base na estimativa, o Gerente saberá quanto tempo será dispendido para completar o projeto. Podendo elaborar o cronograma apropriado
-- Riscos do Projeto: Compreender os riscos auxilia o Gerente a adicionar tempo extra suficiente ao cronograma para lidar com riscos
+- Employee and Project Deadlines: Workdays, project deadlines, and available resources are factors that affect the schedule.
+- Project Estimation: Based on the estimation, the Manager will know how much time will be spent to complete the project, enabling the creation of an appropriate schedule.
+- Project Risks: Understanding the risks helps the Manager add enough extra time to the schedule to deal with risks.
 
-### 8. Determine os entregáveis para os testes
+### 8. Determine the Deliverables for Testing
 
-Entregáveis são uma lista de todos os documentos, ferramentas e outros componentes que precisam ser desenvolvidos e mantidos em apoio ao esforço de testes.
+Deliverables are a list of all the documents, tools, and other components that need to be developed and maintained to support testing efforts.
 
-Existem diferentes entregáveis em todas as fases do desenvolvimento
+There are different deliverables in all phases of development.
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_15.png" alt="Antes do Teste, Durante o Teste, Após o Teste">
+![Before Testing, During Testing, After Testing](https://www.guru99.com/images/TestManagement/testmanagement_article_2_4_15.png)
 
-Entregáveis são providenciados *antes* da fase de testes:
+Deliverables are provided *before* the testing phase:
 
-- Documento Planos de Testes
-- Documento Casos de Teste
-- Especficiações do Design de Testes
+- Test Plans Document
+- Test Cases Document
+- Test Design Specifications
 
-Entregáveis providenciados *durante* a fase de testes:
+Deliverables are provided *during* the testing phase:
 
-- Scripts de Teste
-- Simuladores
-- Dados de Testes
-- Matriz de Rastreabilidade de Teste
-- Logs de erros e execuções
+- Test Scripts
+- Simulators
+- Test Data
+- Test Traceability Matrix
+- Error and Execution Logs
 
-Entregáveis providenciados *após* a fase de testes:
+Deliverables are provided *after* the testing phase:
 
-- Resultados/Relatórios de Testes
-- Relatório de Defeitos
-- Instalação/Diretrizes dos Procedimentos de Testes.
-- Notas de Lançamento.
+- Test Results/Reports
+- Defect Reports
+- Installation/Testing Procedure Guidelines
+- Release Notes.

@@ -1,101 +1,99 @@
 # Kanban
 
-O Kanban é uma estrutura popular usada para implementar o desenvolvimento de software Ágil e DevOps, requer comunicação em tempo real de capacidade e transparência de trabalho.
+Kanban is a popular framework used to implement Agile and DevOps software development, requiring real-time communication of capacity and work transparency.
 
-Itens de trabalho são representados visualmente num painél Kanban, permitindo que os membros do time vejam o estado de cada setor do projeto a qualquer momento.
+Work items are visually represented on a Kanban board, allowing team members to see the state of each project sector at any given time.
 
-## O que é um Painél Kanban
+## What Is a Kanban Board
 
-É uma ferramenta de gerenciamento de projetos Ágeis que auxiliam na visualização clara do projeto, maximizando eficiência (ou fluxo).
+It is an Agile project management tool that aids in clear project visualization, maximizing efficiency (or flow).
 
-Isto auxilia tanto times Ágeis quanto DevOps em seu dia-a-dia de trabalho. Painéis Kanban usam cards, colunas e melhoria contínua para auxiliar times serviços e tecnologias a empenharem-se na quantidade correta de trabalho.
+This aids both Agile and DevOps teams in their day-to-day work. Kanban boards use cards, columns, and continuous improvement to help service and technology teams engage in the right amount of work.
 
-## Elementos de um Painél Kanban
+## Elements of a Kanban Board
 
-Painés podem ser dividos em cinco componentes:
+Boards can be divided into five components:
 
-1. Sinais Visuais;
-2. Colunas;
-3. Limites de Trabalho em Progresso;
-4. Ponto de Comprometimento;
-5. Ponto de Entrega;
+1. Visual Signals;
+2. Columns;
+3. Work in Progress (WIP) Limits;
+4. Commitment Point;
+5. Delivery Point;
 
-### 1. Sinais Visuais
+### 1. Visual Signals
 
-Um dos primeiros elementos perceptíveis sobre o painél  são os cards visuais (adesivos, tickets, etc). Times Kanban escrevem todos seus projetos e items de trabalho em cards, geralmente um por card. Para times Ágeis, cada card pode encapsular uma estória de usuário. Uma vez no painél, estes sinais visuais auxiliam membros do time e investidores a rapidamente entender no que o time está focado.
+One of the first noticeable elements on the board is visual cards (stickers, tickets, etc.). Kanban teams write all their projects and work items on cards, usually one per card. Once on the board, these visual signals help team members and stakeholders quickly understand what the team is focusing on.
 
-### 2. Colunas
+### 2. Columns
 
-Outra marca registrada no painél Kanban são as Colunas. Cada coluna representa uma atividade específica que juntas compõem um fluxo de trabalho.
+Another hallmark of the Kanban board is the Columns. Each column represents a specific activity that, together, forms a workflow.
 
-Cards fluem através deste fluxo até estarem completos.
+Cards flow through this workflow until they are complete.
 
-Fluxos de Trabalhos podem ser tão simples quanto "A Fazer", "Em Progresso", "Completo" ou bem mais complexas.
+Workflows can be as simple as "To Do," "In Progress," "Done," or much more complex.
 
-### 3. Limites de Work in Progress (WIP)
+### 3. Work in Progress (WIP) Limits
 
-Número máximo de cards que podem estar em uma coluna a qualquer momento. Uma  coluna com um limite WIP de três não podem conter mais do que três cards em si.
+The maximum number of cards that can be in a column at any time. A column with a WIP limit of three cannot contain more than three cards.
 
-Quando a coluna atinge seu máximo, o time precisa focar nestes cards para movê-los adiante, abrindo espaço para novos cards entrarem neste estágio do workflow.
+When the column reaches its maximum, the team must focus on these cards to move them forward, making room for new cards to enter this stage of the workflow.
 
-Estes limites WIP são críticos para expor gargalos na produção e maximizar o fluxo. Limites WIP provém avisos prévios de que você inscreveu-se em trabalho demais.
+These WIP limits are critical for exposing production bottlenecks and maximizing flow. WIP limits provide advance warnings that you have taken on too much work.
 
-### 4. Ponto de Compromisso
+### 4. Commitment Point
 
-Times Kanban usualmente possuem um backlog de seus painéis. É aqui que clientes e parceiros de time inserem ideias para projetos que o time pode assumir quando estiverem prontos. O ponto de compromisso é o momento em que uma idéia é assumida pelo time e o trabalho inicia-se no projeto.
+Kanban teams usually have a backlog on their boards. This is where customers and team partners enter project ideas that the team can take on when ready. The commitment point is when an idea is taken on by the team, and work begins on the project.
 
-### 5. Ponto de Entrega
+### 5. Delivery Point
 
-É o fim do fluxo de trabalho para um time Kanban.
+It is the end of the workflow for a Kanban team.
 
-Para a maioria dos times, o ponto de entrega é quando o produto ou serviço está nas mãos do cliente. O objetivo da equipe é levar os cards do commitment para a entrega o mais rápido quanto possível. O período de tempo entre os dois pontos pode ser chamado de Lead Time, times Kanban continuamente esforçam-se para melhorar e diminuir este tempo ao máximo.
+For most teams, the delivery point is when the product or service is in the hands of the customer. The team's goal is to take the cards from commitment to delivery as quickly as possible. The time between these two points can be called Lead Time, and Kanban teams continuously strive to improve and minimize this time.
 
-    Jim Benson diz que o Kanban possui apenas duas regras:
+Jim Benson says that Kanban has only two rules:
 
-    "Limite o WIP e visualize seu trabalho. Se começar apenas com estas duas regras e aplicá-las ao seu trabalho, seu painél Kanban será bastante diferente do descrito acima. E tá tudo bem!"
+"Limit WIP and visualize your work. If you start with just these two rules and apply them to your work, your Kanban board will be quite different from the one described above. And that's okay!"
 
-## Tipos e Exemplos de Painéis Kanban
+## Types and Examples of Kanban Boards
 
-O Kanban pode ser adaptado para diversos ambientes, desde a manufatura até os recursos humanos, do Ágil ao DevOps.
+Kanban can be adapted to various environments, from manufacturing to human resources, from Agile to DevOps.
 
-O Tipo de ambiente adaptando o Kanban muitas vezes dita se o painél é físico ou digital.
+The type of environment adapting Kanban often dictates whether the board is physical or digital.
 
-## Painéis Físicos
+## Physical Boards
 
-Os painéis mais simples de Kanban são quadros físicos divididos em colunas. Times marcam o quadro com post-its, que se movem através do workflow demonstrando progresso.
+The simplest Kanban boards are physical boards divided into columns. Teams mark the board with Post-its, which move through the workflow, showing progress.
 
-Uma vantagem de quadros físicos é que "está sempre ligado". Você não pode abrir uma aba nova em um quadro branco enorme logo ao lado da sua mesa"
+An advantage of physical boards is that "it's always on." You can't open a new tab on a huge whiteboard right next to your desk.
 
-É simples e fácil de montar, mas por vezes, a tela física não é ideal para times remotos.
+It is simple and easy to set up, but sometimes the physical screen is not ideal for remote teams.
 
-## Quadros Digitais
+## Digital Boards
 
-Enquanto o sistema Kanban ganhou espaço com os times de software e engenharia, sofreu.
+While the Kanban system gained popularity with software and engineering teams, it has suffered.
 
-Painéis digitais permitem que times que não dividem espaços físicos possam usar quadros Kanban remotamente e de forma assíncrona.
+Digital boards allow teams that do not share physical spaces to use Kanban boards remotely and asynchronously.
 
-A plataforma Trello oferece uma forma rápida e fácil de criar painéis Kanban virtualmente.
+The Trello platform provides a quick and easy way to create virtual Kanban boards.
 
-As vantagens de um quadro Kanban virtual estão na velocidade ed configuração, facilidade de compartilhamento e o caráter assíncrono do infinito número de conversas e comentários ao longo do projeto. Não importa onde ou quando os membros do projeto chequem o painél, eles verão o status mais atualizado. Além disso, voce pode usar um workflow construído em Trello para seus afazeres pessoais.
+The advantages of a virtual Kanban board include setup speed, ease of sharing, and the asynchronous nature of the countless conversations and comments throughout the project. No matter where or when project members check the board, they will see the most up-to-date status. In addition, you can use a Trello built-in workflow for your personal tasks.
 
 ## Kanban vs Scrum
 
-As diferenças entre Kanban e Scrum são bastante sutis. Na maioria das interpretações, os times Scrum utilizam um quadro Kanban, mas com processos, artefatos e papéis Scrum dentro dele. Existem, entretanto, diferenças chave:
+The differences between Kanban and Scrum are quite subtle. In most interpretations, Scrum teams use a Kanban board but with Scrum processes, artifacts, and roles within it. However, there are key differences:
 
-- Sprints Scrum tem datas de início e fim, enquanto o Kanban é um processo contínuo;
-- Funções do time são claramente definidas no Scurm (P.O, devs, Scrum Master), enquanto Kanban não possui papéis formais. Ambos os times são bem organizados;
-- Um painél Kanban é utilizado através do ciclo de um projeto, enquanto um quadro Scrum é limpo e reciclado após cada sprint.
-- Quadros Scrum possuem um número determinado de tarefas e datas de entregas fixadas;
-- Painéis Kanban são mais flexíveis no que tange a tarefas e limites de tempo. Tarefas podem ser repriorizadas, redesignadas ou atualizadas conforme necessário.
+- Scrum sprints have start and end dates, while Kanban is a continuous process.
+- Team roles are clearly defined in Scrum (Product Owner, developers, Scrum Master), while Kanban has no formal roles. Both teams are well-organized.
+- A Kanban board is used throughout the project lifecycle, while a Scrum board is cleared and recycled after each sprint.
+- Scrum boards have a fixed number of tasks and set delivery dates.
+- Kanban boards are more flexible regarding tasks and time limits. Tasks can be reprioritized, reassigned, or updated as needed.
 
-Tanto o Kanban quanto o Scrum são estruturas Ágil populares entre desenvolvedores de software.
+Both Kanban and Scrum are popular Agile frameworks among software developers.
 
-## Iniciando um Quadro Kanban
+## Starting a Kanban Board
 
-Kanban é um método "comece com o que sabe". Isto significa que você não precisa descobrir o que fará a seguir para iniciar o Kanban. O método presume três coisas:
+Kanban is a "start with what you know" method. This means you don't have to figure out what to do next to start Kanban. The method assumes three things:
 
-1. Você compreende os processos atuais, enquanto eles são aplicados, e respeita os papés, responsabilidades e hieriarquias atuais;
-
-2. Você concorda em perseguir a melhoria contínua através da mudança evolucionária;
-
-3. Você encoraja atos  de liderança em todos os níveis, de colaboradores até gerentes sênior;
+1. You understand the current processes as they are applied and respect the current roles, responsibilities, and hierarchies.
+2. You agree to pursue continuous improvement through evolutionary change.
+3. You encourage acts of leadership at all levels, from team members to senior managers.

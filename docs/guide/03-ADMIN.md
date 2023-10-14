@@ -14,5 +14,6 @@ Vejamos como podemos administrar um projeto:
 1. [Método Waterfall](../03-admin/06-waterfall.md)
 1. [Método V-Model](../03-admin/07-v-model.md)
 1. [Elaborando um relatório de testes](../03-admin/08-report.md)
+1. [Verificação e Validação](../03-admin/09-verificacao.md)
 
 ← [Voltar ao Roadmap](README.md)

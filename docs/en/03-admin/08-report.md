@@ -1,110 +1,110 @@
-# Elaboração de Relatório
+# Report Preparation
 
-Elaborar um relatório é uma tarefa que exige muita atenção e cuidado, pois é um documento que deve ser claro e objetivo, e que deve conter informações relevantes para o leitor.
+Preparing a report is a task that requires a lot of attention and care, as it is a document that should be clear and concise, containing relevant information for the reader.
 
-## O que é um Bug?
+## What is a Bug?
 
-Um bug é a consequencia/resultado de uma falha no código. Uma falha no código pode ter sido gerada por um erro de programação, ou por um erro de design. Geralmente erros no código acontecem por falta de conhecimento do programador, ou por falta de atenção.
+A bug is the consequence or result of a fault in the code. A fault in the code can be caused by a programming error or a design error. Code errors usually occur due to a lack of knowledge on the part of the programmer or due to inattention.
 
-É esperado que o software desenvolvido contenha uma quantidade razoável de bugs, pois é impossível prever todos os cenários possíveis de uso da aplicação. Porém, quanto mais bugs forem encontrados de forma tardia, mais tempo será gasto para corrigi-los, e mais tempo será gasto para testar a aplicação.
+It is expected that the developed software will contain a reasonable number of bugs because it is impossible to predict all possible application usage scenarios. However, the later bugs are found, the more time it will take to fix them, and the more time will be spent on testing the application.
 
-## Defeitos na Testagem de Software
+## Software Testing Defects
 
-Um defeito é uma variação ou desvio da aplicação de software em relação as regras de negócio ou requerimentos de business originais.
+A defect is a variation or deviation in the software application from the original business rules or requirements.
 
-Um defeito de software consiste em um erro no processo de codificação, o que causa resultados incorretos ou inesperado no programa, o que não atende aos requerimentos estabelecidos. Testers podem se deparar com tais defeitos ao aplicar os casos de teste.
+A software defect consists of an error in the coding process, which leads to incorrect or unexpected results in the program, not meeting the established requirements. Testers may encounter such defects when applying test cases.
 
-Estes dois termos possuem tênue diferença, e na indústria ambos são falhas que precisam ser corrigidas, sendo usadas de forma intercambeável por alguns times
+These two terms have a subtle difference, and in the industry, both are failures that need to be corrected and are used interchangeably by some teams.
 
-## Relatório de Bugs na Testagem de Software
+## Software Testing Bug Report
 
-Um relatório de bugs é um documento detalhado acerca de bugs encontrados na aplicação, contendo cada detalhe como descrição, data em que foi localizado, nome do testers que o encontrou, nome do dev que corrigiu, etc. Estes relatórios auxiliam a identificar bugs similares no futuro, de forma a evitá-los.
+A bug report is a detailed document about bugs found in the application, containing every detail such as description, date of discovery, the name of the tester who found it, the name of the developer who fixed it, etc. These reports help identify similar bugs in the future to avoid them.
 
-Ao reportar bugs ao desenvolvedor, o seu relatório deve conter as seguintes informações:
+When reporting bugs to the developer, your report should contain the following information:
 
-- Defeito_ID: Número de identificação única para o defeito.
-- Descrição do Defeito: Descrição detalhada incluindo informações sobre o módulo em que o defeito foi encontrado.
-- Versão: Em qual versão da aplicação o defeito foi localizado.
-- Data de Surgimento: Data em que o defeito surgiu.
-- Referência: Onde se provê referencias a documentações como requerimentos, design, arquitetura ou até mesmo capturas de tela do erro para auxiliar a compreensão.
-- Detectado por: Nome/ID do testers que identificou o defeito.
-- Status: Situação do defeito.
-- Corrigido por: Nome/ID do desenvolvedor que corrigiu.
-- Data de Encerramento: Data em que o defeito foi finalizado.
-- Gravidade: Descreve o impacto do defeito na aplicação.
-- Prioridade: Relacionada com a urgência na correção do defeito. A prioridade pode ser alta/média/baixa com base na urgência de impacto com que o defeito deve ser corrigido.
+- Defect_ID: A unique identification number for the defect.
+- Defect Description: Detailed description, including information about the module in which the defect was found.
+- Version: In which version of the application the defect was located.
+- Date of Occurrence: Date when the defect occurred.
+- Reference: Where references to documentation such as requirements, design, architecture, or even error screenshots are provided to help with understanding.
+- Detected by: Name/ID of the tester who identified the defect.
+- Status: The defect's situation.
+- Fixed by: Name/ID of the developer who fixed it.
+- Closure Date: Date when the defect was closed.
+- Severity: Describes the impact of the defect on the application.
+- Priority: Related to the urgency of defect correction. Priority can be high/medium/low based on how urgently the defect needs to be fixed.
 
-Outros elementos necessários para o relatório são:
+Other necessary elements for the report include:
 
-- Quando o bug ocorre? Como é possível reproduzí-lo?
-- Qual é o comportamento incorreto e o que era esperado?
-- Qual é o impacto no usuário? O quão crítica será sua correção?
-- Isto ocorre apenas com dados de teste específicos?
-- Qual build foi utilizada para o teste? (incluindo, idealmente, a commit do git)
-- Se o bug ocorre na versão mobile, qual modelo, tamanho de viewport e sistema operacional?
-- Se o bug ocorre em um browser, qual o tipo de browser, resolução e versão?
-- Se o bug ocorre em uma API, qual a API específica/fluxo de trabalho é impactado, quais são os parâmetros de request e resposta?
-- Captura de tela com as áreas relevantes demarcadas.
-- Video demonstrando os passos tomadas até ocorrência do bug.
-- Logs da aplicação/servidor
-- Qualquer feature de seleção/configuração específica, caso envolvida quando o bug ocorreu?
+- When does the bug occur? How can it be reproduced?
+- What is the incorrect behavior, and what was expected?
+- What is the user's impact? How critical is its correction?
+- Does this occur only with specific test data?
+- Which build was used for testing (ideally including the Git commit)?
+- If the bug occurs in the mobile version, what is the model, viewport size, and operating system?
+- If the bug occurs in a browser, what type of browser, resolution, and version?
+- If the bug occurs in an API, which specific API/workflow is affected, what are the request and response parameters?
+- Screenshot with relevant areas marked.
+- Video demonstrating the steps taken to encounter the bug.
+- Application/server logs.
+- Any specific selection/configuration feature, if involved when the bug occurred.
 
-## Processo de Gerenciamento dos Defeitos
+## Defect Management Process
 
-Sistemática para identificação e correção dos bugs. O ciclo de gerenciamento dos defeitos contém os seguintes passos:
+A systematic approach to identifying and fixing bugs. The defect management cycle consists of the following steps:
 
- 1. Descoberta do Defeito.
- 2. Categorização.
- 3. Correção do Defeito por Desenvolvedores.
- 4. Verificação por Testers
- 5. Encerramento do Defeito
- 6. Relatório de Defeitos ao fim do projeto.
+1. Defect Discovery.
+2. Categorization.
+3. Defect Resolution by Developers.
+4. Tester Verification.
+5. Defect Closure.
+6. Defect Reporting at the end of the project.
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_4_4.png" alt="Ciclo de Gerenciamento de Defeitos">
+![Defect Management Cycle](https://www.guru99.com/images/TestManagement/testmanagement_article_4_4.png)
 
-### Descoberta
+### Discovery
 
-Nesta fase os times devem descobrir tantos defeitos quanto possível antes que o usuário final o faça. Um defeito é declarado como encontrado, e tem seu status alterado para "Aceito" uma vez reconhecido e aceito por desenvolvedores.
+In this phase, teams must discover as many defects as possible before the end-users do. A defect is declared found and its status is changed to "Accepted" once recognized and accepted by developers.
 
-<img src="https://www.guru99.com/images/TestManagement/testmanagement_article_4_5.png" alt="Fluxograma Detecção e Reconhecimento de Defeitos">
+![Discovery and Recognition of Defects Flowchart](https://www.guru99.com/images/TestManagement/testmanagement_article_4_5.png)
 
-### Categorização
+### Categorization
 
-A categorização de defeitos auxilia os desenvolvedores de software a priorizar suas tarefas de acordo com sua prioridade.
+Defect categorization helps software developers prioritize their tasks based on severity.
 
-- Crítica: Os defeitos que precisam ser corrigods **imediatamente** uma vez que podem causar grandes danos ao produto.
-- Alta: O defeito impacta as principais features do produto.
-- Média: O defeito causa desvios mínimos nas regras de negócio do poduto.
-- Baixa: O defeito em pouco afeta a operação do produto.
+- Critical: Defects that need to be fixed **immediately** as they can cause significant harm to the product.
+- High: The defect impacts the product's core features.
+- Medium: The defect results in minor deviations from the product's business rules.
+- Low: The defect has little effect on the product's operation.
 
-### Resolução
+### Resolution
 
-A resolução de defeitos na testagem de software é um processo que corrige desvios passo a passo, iniciando-se com a designação de defeitos para desenvolvedores, que por sua vez inserem os defeitos em um cronograma de acordo com sua prioridade.
+The resolution of defects in software testing is a process that corrects deviations step by step, starting with the assignment of defects to developers, who, in turn, insert defects into a schedule based on their priority.
 
-Uma vez que a correção seja finalizada, os desenvolvedores enviam um relatório ao Gerente de Testes, o processo auxilia na correção e registro dos defeitos.
+Once the correction is complete, developers send a report to the Test Manager, which helps in the defect correction and registration process.
 
-- Designação: Um desenvolvedor ou outro profissional recebe a correção a ser feita, e altera o status para *Respondendo*.
-- Fixação de Cronograma: O desenvolvedor assume parte do controle nesta fase, criando uma agenda para corrigir os defeitos com base em sua prioridade.
-- Correção do Defeito: Enquanto o time de desenvolvimento corrige os defeitos, o Gerente de Testes registra o processo.
-- Relatório da Resolução: Envio do relatório sobre a correção de defeito por parte dos desenvolvedores.
+- Assignment: A developer or another professional receives the correction to be made and changes the status to "Responding."
+- Schedule Fix: The developer takes some control in this phase, creating a schedule to fix the defects based on their priority.
+- Defect Correction: While the development team fixes the defects, the Test Manager records the process.
+- Resolution Report: The report on the defect correction is sent by the developers.
 
-### Verificação
+### Verification
 
-Após o time de desenvolvimento ter corrigido e reportado o  defeito, a equipe de testes  verifica que os problemas foram realmente corrigidos.
+After the development team has fixed and reported the defect, the testing team verifies that the problems have indeed been fixed.
 
-### Encerramento
+### Closure
 
-Uma vez que o defeito tenha sido resolvido e verificado, o status é alterado para *"Encerrado"*.
+Once the defect has been fixed and verified, the status is changed to "Closed."
 
-## Relatório de Defeitos
+## Defect Reports
 
-É um processo em que gerentes de testes preparam e enviam o relatório de defeitos para que o time de gerência provenha feedback no processo de gestão dos defeitos, bem como o status destes.
+This is a process where Test Managers prepare and send defect reports for management teams to provide feedback on the defect management process and the status of these defects.
 
-Então, o time de gerência checa o relatório, podendo enviar o feedback ou prover suporte adicional caso necessário. O relatório de defeitos auxilia a melhor comunicar, registrar e explicar defeitos com detalhes.
+The management team checks the report and may provide feedback or additional support if necessary. The defect report helps to better communicate, record, and explain defects in detail.
 
-O conselho de administração tem o direito de saber o status dos defeitos, uma vez que devem compreender o processo de gestão para auxiliar no projeto. Portanto, deve-se reportar a eles a situação atual dos defeitos, acatando feedback.
+The management board has the right to know the status of defects, as they need to understand the management process to assist in the project. Therefore, the current situation of defects must be reported to them, considering their feedback.
 
-### Como medir e avaliar a qualidade da execução de testes
+### How to Measure and Evaluate Test Execution Quality
 
-- Taxa de Rejeição dos Defeitos: (Número de defeitos rejeitados/Número total de defeitos)*100
-- Taxa de Vazamento dos Defeitos: (Número de defeitos não detectados/Total de defeitos do software)*100
+- Defect Rejection Rate: (Number of rejected defects/Total number of defects)*100
+- Defect Leakage Rate: (Number of undetected defects/Total software defects)*100

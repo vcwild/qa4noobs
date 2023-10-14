@@ -1,51 +1,51 @@
-# Modelo Cascata
+# Waterfall Model
 
-É uma estrutura sequencial que divide o desenvolvimento de software em fases pré-definidas. Cada uma deve ser completa antes que a próxima possa ser iniciada, sem sobreposição entre fases.
+It is a sequential framework that divides software development into predefined phases. Each one must be completed before the next one can begin, with no overlap between phases.
 
-Cada etapa é estruturada para desenvolver uma atividade específica durante a fase SDLC.
+Each stage is structured to carry out a specific activity during the SDLC phase.
 
-<img src="https://www.guru99.com/images/6-2015/052615_1232_WhatisSDLCo1.png" alt="Fluxograma Cascata">
+![Waterfall Flowchart](https://www.guru99.com/images/6-2015/052615_1232_WhatisSDLCo1.png)
 
-## Etapas do Modelo Cascata
+## Stages of the Waterfall Model
 
-- Fase de Coleta das Regras de Negócio: Coleta de tantas informações quanto possíveis acerca dos detalhes e especificações do software desejado pelo cliente.
+- Business Requirement Gathering Phase: Gathering as much information as possible about the details and specifications of the software desired by the client.
 
-- Fase de Design: Planejamento da linguagem de programação a ser utilizada, database, etc. Que deve adequar-se ao projeto, bem como funções de alto nível e arquitetura.
+- Design Phase: Planning the programming language to be used, the database, etc. It should fit the project, as well as high-level functions and architecture.
 
-- Fase de Construção: Após o Design, passamos a construir de fato o código do software.
+- Construction Phase: After the Design, we proceed to actually build the software code.
 
-- Fase de Testes: Após, testamos o software para verificar que foi feito conforme as especificações fornecidas pelo cliente.
+- Testing Phase: Afterward, we test the software to verify that it has been created according to the specifications provided by the client.
 
-- Fase de Implementação: Implementa a aplicação no ambiente designado.
+- Implementation Phase: It implements the application in the designated environment.
 
-- Fase de Manutenção: Uma vez que o sistema está pronto para uso, pode ser necessário alterar o código mais tarde a depender de solicitações dos usuários.
+- Maintenance Phase: Once the system is ready for use, it may be necessary to change the code later depending on user requests.
 
-## Quando Utilizar o Modelo Cascata?
+## When to Use the Waterfall Model?
 
-Pode ser aplicado quando:
+It can be applied when:
 
-- Requerimentos não mudam constantemente;
-- Aplicação não é demasiadamente complexa;
-- O projeto é curto;
-- Regras de Negócio são claras;
-- O ambiente é estável;
-- Tecnologia e ferramentas usadas não dinâmicas, mas sim estáveis;
-- Recursos são disponíveis e direcionados;
+- Requirements do not change constantly;
+- The application is not overly complex;
+- The project is short;
+- Business rules are clear;
+- The environment is stable;
+- Technology and tools used are not dynamic but stable;
+- Resources are available and directed;
 
-### Vantagens Modelo Cascata
+### Advantages of the Waterfall Model
 
-1. Antes da próxima ffase de desenvolvimento, a anterior deve estar completa;
-2. Apropriada para projetos menores os requerimentos são bem definidos;
-3. Deve-se aplicar os testes de Quality Assurance (verificação e validação) antes de completar cada estágio;
-4. O desenvolvimento da documentação é feito em cada fase do SDLC;
-5. O projeto é completamente dependente do time, com intervenção mínima do cliente;
-6. Quaisquer mudanças no software são feitas durante o processo de desenvolvimento;
+1. Before the next development phase, the previous one must be completed.
+2. Suitable for smaller projects with well-defined requirements.
+3. Quality Assurance (verification and validation) tests should be applied before completing each stage.
+4. Documentation development is done at each stage of the SDLC.
+5. The project is entirely dependent on the team, with minimal customer involvement.
+6. Any changes to the software are made during the development process.
 
-### Desvatagens do Modelo Cascata
+### Disadvantages of the Waterfall Model
 
-1. Erros só podem ser corrigidos na etapa;
-2. Não é desejável para projetos complexos onde requerimentos mudem constatemente;
-3. Período de teste só ocorre nas etapas mais avançadas do processo de desenvolvimento;
-4. Documentação ocupa bastante do tempo de desenvolvedores e testers;
-5. O valioso feedback de clientes não pode ser incluído no processo de desenvolvimento já em execução;
-6. Pequenas mudanças ou erros que surgir no software finalizado podem gerar grandes problemas;
+1. Errors can only be fixed in the next stage.
+2. Not suitable for complex projects where requirements change constantly.
+3. The testing period only occurs in the later stages of the development process.
+4. Documentation takes up a significant amount of developers' and testers' time.
+5. Valuable customer feedback cannot be included in the ongoing development process.
+6. Small changes or errors that arise in the finished software can lead to major problems.

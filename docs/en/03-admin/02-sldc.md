@@ -1,105 +1,104 @@
-# Metodologias do Ciclo de Vida do Software
+# Software Development Life Cycle Methodologies
 
-Software Developmente Life Cycle é o processo seguido para o desenvolvimento de um software, englobando sua organização, planejamento, entrega e etc.
+Software Development Life Cycle (SDLC) is the process followed for software development, encompassing its organization, planning, delivery, and more.
 
-## O que é SLDC?
+## What is SDLC?
 
-É um processo seguido para um projeto de software dentro de uma empresa. Consiste em um plano detalhado que descreve como desenvolver, manter, trocar, alterar ou melhorar partes específicas do software. O Ciclo define uma metodologia para melhorar a qualidade do softare e o processo geral de desenvolvimento.
+It is a process followed for a software project within a company. It consists of a detailed plan that describes how to develop, maintain, change, or enhance specific parts of the software. The cycle defines a methodology to improve software quality and the overall development process.
 
-<img src="https://www.tutorialspoint.com/sdlc/images/sdlc_stages.jpg" alt="Fluxograma SLDC">
+![SDLC Stages](https://www.tutorialspoint.com/sdlc/images/sdlc_stages.jpg)
 
-### 1. Planejamento e Análise de Requerimentos
+### 1. Planning and Requirements Analysis
 
-Análise das regras de negócio é um dos estágios mais fundamentais no SLDC, é aplicado por membros sêniors no time com inputs dos clientes, departamento de vendas, pesquisas de mercado e especialistas na indústria. A informação é usada para planejar a abordagem básica do projeto e conduzir estudos de viabilidade do produto nas áreas econômicas, operacionais e técnicas.
+Analysis of business rules is one of the most fundamental stages in SDLC. It is performed by senior team members with inputs from clients, sales departments, market research, and industry experts. This information is used to plan the project's basic approach and conduct product feasibility studies in economic, operational, and technical areas.
 
-Planejar para os requerimentos de garantia de qualidade e identificação de riscos associados com o projetos também é são feitos no estágio de planejamento. O Resultado dos estudos de viabilidade é definir as diversas abordagens técnicas que podem ser seguidas para implementar o projeto com sucesso, assumindo riscos mínimos.
+Planning for quality assurance requirements and identifying project-associated risks is also done in the planning stage. The result of feasibility studies is to define the various technical approaches that can be followed to successfully implement the project while assuming minimal risks.
 
-### 2. Definindo Regras de Negócio
+### 2. Defining Business Rules
 
-Uma vez que a análise de requerimentos foi feita o próximo passo é definir e documentar claramente todas as regras de negócio e condições de aceite, recebendo a aprovação de clientes e analistas de mercado. Isto é feito através de um SRS (Software Requirement Specification) que consiste no design  de todos os requerimentos do produto e seu desenvolvimento durante o ciclo de vida do projeto.
+Once requirements analysis is complete, the next step is to clearly define and document all business rules and acceptance criteria, obtaining approval from clients and market analysts. This is done through a Software Requirement Specification (SRS) that consists of the design of all product requirements and their development throughout the project's life cycle.
 
-### 3. Design da Arquitetura do Projeto
+### 3. Project Architecture Design
 
-SRS é a referencia para arquitertos de produto desenvolverem a melhor arquitetura possível. Com base nos requerimentos especificados no SRS, geralmente mais de uma abordagem de design é proposta e documentada em um DDS (Design Document Specification)
+The SRS serves as a reference for product architects to develop the best possible architecture. Based on the requirements specified in the SRS, typically more than one design approach is proposed and documented in a Design Document Specification (DDS).
 
-Este DDS é revisado por todos os investidores majoritários e baseado em diversos parâmetros como análise de risco, robustez do produto, modularidade do design, orçamento e restrições de tempo, escolhe-se a mlehor abordagem para o produto.
+This DDS is reviewed by all major stakeholders, and based on various parameters such as risk analysis, product robustness, design modularity, budget, and time constraints, the best approach for the product is chosen.
 
-Uma abordagem de design claramente define todos os módulos de arquitetura do produto junto de sua comunicação e representação do fluxo de dados com módulos externos (caso existam). O design interno de todos os módulos da arquitetura proposta devem ser claramente definidos com o máximo de detalhes no DDS.
+A clear design approach defines all the architecture modules of the product along with their communication and data flow representation with external modules (if any). The internal design of all modules of the proposed architecture should be clearly defined with maximum detail in the DDS.
 
-### 4. Construção e Desenvolvimento do Produto
+### 4. Product Construction and Development
 
-Aqui, o desenvolvimento propriamente dito começa, e o produto é construído
-O código de programação é gerado de acordo com o DDS neste estágio. Se o design é aplicado de forma detalhada e organisada, a geração de código pode ser concluída sem maiores dificuldades.
+Here, the actual development begins, and the product is built. The programming code is generated according to the DDS in this stage. If the design is applied in a detailed and organized manner, the code generation can be completed without major difficulties.
 
-Desenvolvedores devem conhecers as diretrizes de código definidas por sua organização, bem como as ferramentas pertinentes. A linguagem de programação a ser utilizada é definida de acordo com o software a ser desenvolvido.
+Developers should be familiar with the code guidelines defined by their organization, as well as the relevant tools. The choice of programming language to be used is determined according to the software to be developed.
 
-### 5. Testagem do Produto
+### 5. Product Testing
 
-Esta etapa é geralmente um subtipo de todos os estágios em modelos modernos de SLDC. Entretanto, esta etapa regere-se apenas a testagem do produto, onde defeitos são localizados, reportados, catalogados, corrigidos e validados, até que o produto atinja os maiores padrões de qualidade.
+This stage is generally a subset of all stages in modern SDLC models. However, this stage specifically focuses on product testing, where defects are located, reported, cataloged, corrected, and validated until the product meets the highest quality standards.
 
-### 6. Implementação no Mercado e Manutenção
+### 6. Market Implementation and Maintenance
 
-Uma vez que o produto é testado e esta pronto para ser implementado, ele é formalmente lançado a mercado. Por vezes a implementação de produto acontece em estágios, de acordo com a estratégia de negócios da organização. O produto pode ser lançado primeiro em um segmento limitado, e testado no ambiente de negócios real (UAT).
+Once the product has been tested and is ready to be implemented, it is formally released to the market. Sometimes, product implementation occurs in stages, according to the organization's business strategy. The product may be first released in a limited segment and tested in the actual business environment (User Acceptance Testing - UAT).
 
-Então, baseado em feedback, o produto pode ser lançado como estiver, ou com melhorias sugeridas pelo mercado alvo. Uma vez lançado no mercado, sua manutenção é feita com foco na base de usuários existentes.
+Then, based on feedback, the product may be released as is or with improvements suggested by the target market. Once released to the market, its maintenance is focused on the existing user base.
 
-## Modelos SLDC
+## SDLC Models
 
-Existem diversos modelos definidos e arquitetados que são seguidos durante o processo de desenvolvimento. Estes modelos também são chamados de Software Development Process Models. Cada modelo de processo segue uma serie de passos única para garantir o sucesso nos processos de desenvolvimento.
+Several defined and architected models are followed during the development process. These models are also called Software Development Process Models. Each process model follows a unique set of steps to ensure success in development processes.
 
-Os modelos mais populares de SLDC são:
+The most popular SDLC models include:
 
-- Cascata
-- Iterativo
-- Espiral
-- Modelo-V
+- Waterfall
+- Iterative
+- Spiral
+- V-Model
 - Big Bang
 
-## O que é o o Quality Assurance no SLDC?
+## What Is Quality Assurance in SDLC?
 
-O QA possui papel fundamental no processo que deve ser implementando no ciclo de desenvolemento.
+Quality Assurance (QA) plays a fundamental role in the process to be implemented in the development cycle.
 
-Sua principal função é garantir que o softawre atenda as regras de negócio, esteja livre de bugs e funcione perfeitamente sob diferentes circunstâncias.
+Its primary function is to ensure that the software meets business rules, is free of bugs, and functions perfectly under different circumstances.
 
-Para a atual realidade de mercado, em que um produto ficará disponível em diversos modais, e é crítico que seja desenvolvido sem defeitos. Aqui entra o QA.
+For the current market reality, where a product will be available in various modes, it is critical that it is developed without defects. This is where QA comes in.
 
-O QA em TI é integrado em todos os estágios de desenvolvimento, e é usado mesmo após o estágio de lançamento.
+QA in IT is integrated into all stages of development and is used even after the release stage.
 
-Especialistas em QA criam e implementam diversas estratégias para melhoria de qualidade de software, aplicando diversos tipos de teste para garantir correta funcionalidade, este estágio é chamado de Controle de Qualidade (QC).
+QA experts create and implement various strategies for software quality improvement, applying various types of tests to ensure proper functionality. This stage is called Quality Control (QC).
 
-## Quais Profissionais Integram o Time de QA?
+## Which Professionals Are Part of the QA Team?
 
-Podendo de empresa para empresa, as principais funções são:
+Depending on the company, the main roles are:
 
-- Analista de QA: Posição proxima ao analista de negócios, coleta todas as informações do projeto, avalia riscos e pontos fracos, e cria documentações para descrever aspectos futuros do desenvolvimento que Engenheiros de QA devem atenter-se.
-- Lider de QA: A liderança do time é a pessoa que controla toda a equipe de especialistas. Além disso, o lead administra testes, cria planos de teste, processa a informação recebida de analistas, observa todos os prazos para garantir uma testagem oportuna.
-- Engenheiro de QA: Este especialista aplica os testes e faz tudo para melhorar a qualidade geral do software, deixando-o em conformidade com as regras de negócio.
+- QA Analyst: Close to the business analyst, they collect all project information, assess risks and weaknesses, and create documentation to describe future development aspects that QA Engineers need to pay attention to.
+- QA Lead: The team's leadership is the person who controls the entire team of experts. In addition, the lead manages tests, creates test plans, processes information received from analysts, observes all deadlines to ensure timely testing.
+- QA Engineer: This specialist applies tests and does everything to improve the overall quality of the software, ensuring that it complies with business rules.
 
-## Responsabilidades de um time de QA no TI
+## Responsibilities of a QA Team in IT
 
-O escopo de tarefas do QA deve ser bastante amplo. O time de quality assurance mais uma vez prova sua importância no SLDC.
+The scope of QA tasks should be quite broad. The Quality Assurance team once again proves its importance in SDLC.
 
-- Planejamentos de Testes: Os analistas planejam o processo de testes, com seus objetivos a atingir e quais abordagens usar.
-- Testes Iniciais: Engenheiros de QA conduzem a testagem inicial para identificar bugs durante a primeira fase de desenvolvimento, de forma a acelerá-la.
-- Execução de Testes: Engenheiros de QA aplicam testes manuais ou automatizados de diferentes tipos em acordo com as particularidades do software.
-- Análise de Defeitos: É necessário analisar todos os defeitos e identificar a razão de sua ocorrência.
-- Relatórios: Especialistas usam sistemas para o rastreio de bugs e criam relatórios para os desenvolvedores com descrições ods bugs e defeitos a serem corrigidos.
-- Colaboração: O time de QA colabora com analsitas de negócio, gerentes de projeto, devs e clientes para atingir a maior qualidade possível para um produto de software.
-- Sumário de Testes e Criação de Reports: Quando um software é testado, engenheiros de QA precisam criar um sumário dos relatórios para demonstrar o nível de qualidade do software.
+- Test Planning: Analysts plan the testing process, with their goals to achieve and which approaches to use.
+- Initial Testing: QA engineers conduct initial testing to identify bugs during the first development phase to expedite it.
+- Test Execution: QA engineers apply manual or automated tests of different types according to the software's peculiarities.
+- Defect Analysis: It is necessary to analyze all defects and identify the reason for their occurrence.
+- Reporting: Experts use bug tracking systems and create reports for developers with descriptions of the bugs and defects to be fixed.
+- Collaboration: The QA team collaborates with business analysts, project managers, developers, and clients to achieve the highest possible quality for a software product.
+- Test Summary and Report Creation: When software is tested, QA engineers need to create reports summarizing the quality level of the software.
 
-## Qual é o Papel do QA em Desenvolvimento de Projeto?
+## The Role of QA in Project Development
 
-Quality Assurance no ciclo de vida de desenvolvimento desempenha papel crucial em todos os estágios, como por exemplo:
+Quality Assurance in the software development life cycle plays a crucial role in all stages, such as:
 
-- Análise de Requerimentos: Em TI, o time de QA colabora com analistas de negócio para desenvolver um estudo de viabilidade das regras de negócio, análise de possíveis riscos, criação de plano de teste e construção da estratégia para a abordagem utilizada na garantia de qualidade (cada projeto requer uma abordagem individual devido as suas particularidades), quais testes usar, etc.
-- Design: É necessario revisão o design, verificar sua estabilidade, checar se sua arquitetura atende todos os requerimentos. Além disso, especialistas de QA produzem diagramas de fluxo de dados em conjunto com designers UI/UX e documentam-os. Por fim, engenheiros de QA testam testam o design após a sua conclusão para imitar o comportamento do usuário final.
-- Desenvolvimento> QA no desenvolvimento de softwares pode ser aplicada uma vez que o software, ou de acordo com a abordagem TDD (Test Driven Development), que define testagens durante o processo de desenvolvimento após cada iteração.
-- QA Pós Lançamento: Uma vez lançado, desenvolvedores devem realizar a manutenção do produto, o time de QA cria, então, guias de usuário e manuais do produto para entrega ao usuário final. Elaborando também documentação de testes para garantir que todos os bugs tenham sido identificados e tudo esteja corrijido.
+- Requirements Analysis: In IT, the QA team collaborates with business analysts to develop a feasibility study of business rules, analyze potential risks, create a test plan, and build a quality assurance approach (each project requires an individual approach due to its specificities), including which tests to use, etc.
+- Design: A review of the design is required, checking its stability, ensuring that its architecture meets all requirements. In addition, QA experts produce data flow diagrams in conjunction with UI/UX designers and document them. Finally, QA engineers test the design after completion to mimic end-user behavior.
+- Development: QA in software development can be applied once the software is developed, or according to the Test-Driven Development (TDD) approach, which defines testing during the development process after each iteration.
+- Post-Launch QA: Once launched, developers must maintain the product. The QA team then creates user guides and product manuals for delivery to end-users. They also create test documentation to ensure that all bugs have been identified and corrected.
 
-## A Importância do Processo de Quality Assurance
+## The Importance of the Quality Assurance Process
 
-- Poupa Recursos e Preserva Reputação: Sendo esta última uma das mais importantes.  Por exemplo, se você desenvolve um software de trading, e não testou-o corretamente, usuários perderiam dinheiro, e mesmo compensados por suas perdas seria impossível salvar a reputação de seu produto. Portanto, a garantia de qualidade auxilia a detectar bugs antes que usuários os encontrem.
-- Previne Emergências: Imagine que voce encomenda o desenvolvimento de um softare para uso interno, e seus funcionários irão usá-lo para melhor comunicação com clientes. Um bug, mesmo que pequeno, pode levar a severas falhas como perda de dados e quebras de comunicação. Então, será mais complexo recuperar essas informações sem despesas adicionais.
-- Aumenta a Fidelidade de Clientes: Um software livre de bugs significa que clientes não enfrentam problemas au utilizar seu aplicativo. Além disso, se você responde as reclamções de clientes e corrige problemas rapidamente, sua clientela verá que os respeita e aspira aos mais altos niveis de qualidade. Como resultados, sua base de clientes é fidelizada, lucro adicional.
-- Impacta na Produtividade dos Colaboradores: Funcionários podem trabalhar melhor e mais eficientemente quando obstaculos como bugs de software não ficam em seu caminho. Colaboradores, portanto, não perdem tempo tentando descobrir motivos por trás de falhas no software e outros desafios para continuar o trabaho.
-- Torna o Software Mais Seguro: Por fim, a garantia de qualidade contribui para uma aplicação mais segura, elminando vulnerabilidades e defeitos, previnindo ataques maliciosos. O custo dos serviços de QA é incomparável a potenciais perdas financeiras que um empreendimento pode sofrer devido a falta de proteção confiável.
+- Saves Resources and Preserves Reputation: The latter being one of the most important. For example, if you develop trading software and have not tested it correctly, users would lose money, and even compensating for their losses would be impossible to save the reputation of your product. Therefore, quality assurance helps detect bugs before users encounter them.
+- Prevents Emergencies: Imagine that you commission the development of internal use software, and your employees will use it for better communication with clients. Even a small bug can lead to severe failures such as data loss and communication breakdowns. Recovering this information without additional expenses will be more complex.
+- Increases Customer Loyalty: Bug-free software means that customers do not face problems when using your application. Furthermore, if you respond to customer complaints and rectify issues promptly, your clientele will see that you respect them and aspire to the highest levels of quality. As a result, your customer base is retained, leading to additional profit.
+- Impacts Employee Productivity: Employees can work better and more efficiently when obstacles such as software bugs do not get in their way. Employees do not waste time trying to figure out the reasons behind software failures and other challenges to continue their work.
+- Makes Software Safer: Finally, quality assurance contributes to a more secure application by eliminating vulnerabilities and defects, preventing malicious attacks. The cost of QA services is incomparable to potential financial losses that a business can suffer due to a lack of reliable protection.
