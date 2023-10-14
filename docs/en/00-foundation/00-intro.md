@@ -1,4 +1,4 @@
-# **Fundamentos do Teste de Software**
+# **Foundations On Software Testing**
 
 Quality Assurance (QA) also known as QA Tests is an activity that guarantees the best possible quality for the product provided by a company to the final consumer
 

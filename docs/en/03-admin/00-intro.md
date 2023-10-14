@@ -1,9 +1,9 @@
-# Administração de Projetos
+# Project Management
 
-Um projeto é uma empreitada temporária com o objetivo de criar um produto, serviço ou resultado únicos.
+A project is a temporary undertaking with the goal of creating a unique product, service, or outcome.
 
-O projeto é temporário pois tem prazo de começo e fim definidos, e é único pois possui um conjunto de operações designadas para atingir o objetivo.
+The project is temporary because it has defined start and end dates, and it is unique because it involves a set of operations designed to achieve the objective.
 
-A administração de projetos é a disciplina de planejar, organizar, motivar e controlar os recursos para atingir os objetivos do projeto, enquanto mantém em mente o escopo, tempo, qualidade e custos.
+Project management is the discipline of planning, organizing, motivating, and controlling resources to achieve the project's objectives while keeping in mind the scope, time, quality, and costs.
 
-Isto facilita o fluxo de trabalho do time de colaboradores.
+This facilitates the workflow of the team of collaborators.

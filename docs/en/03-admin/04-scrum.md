@@ -1,108 +1,108 @@
 # Scrum
 
-Em testagem de software o Scrum é uma metodologia utilizada para construir aplicações complexas. Ela provê soluções fáceis para execução de tarefas complexas. Scrum auxilia o time de desenvolvimento a focas em todos os aspectos do desenvolvimento de um produto de software, como qualidade, performance, usabilidade, etc. Gera transparência, inspeção e adaptação durante o SLDC para evitar complexibilidade.
+In software testing, Scrum is a methodology used for building complex applications. It provides straightforward solutions for executing intricate tasks. Scrum assists the development team in focusing on all aspects of software product development, such as quality, performance, usability, etc. It generates transparency, inspection, and adaptation during the Software Development Life Cycle (SDLC) to avoid complexity.
 
-<img src="https://www.guru99.com/images/11-2014/agile_Processesv1_4.png" alt="Funcionamento Scrum">
+![Scrum](https://www.guru99.com/images/11-2014/agile_Processesv1_4.png)
 
-## Testagem Scrum
+## Scrum Testing
 
-É feita na metodologia scrum para validar as regras de negócio, e envolve a checagem de parâmetros não funcionais. Não existe papel ativo do tester no processo então é usualmente desenvolvida por developers com Testes Unitários. Por vezes times de testes dedicados são necessários a depender da natureza e complexidade do projeto.
+Scrum testing is performed to validate business rules and involves checking non-functional parameters. There is no active role for testers in the process, so it is usually developed by developers using Unit Testing. Dedicated testing teams may be required depending on the nature and complexity of the project.
 
-## Características Chave da Metodologia Scrum
+## Key Characteristics of the Scrum Methodology
 
-- Scrum possui agendas curtas para ciclos de lançamento com escopos ajustavens conhecidas como sprints. Cada realease pode possuir múltiplas sprints, e cada projeto Scrum pdoe possuir múltiplos ciclos de lançamento;
-- Uma sequência repetitiva de reuniões, eventos e milestones;
-- A prática de testagem e implementação de novas regras de negócio, conhecida como estórias, para garantir que part e do trabalho é lançada logo após cada sprint;
+- Scrum has short schedules for release cycles with adjustable scopes known as sprints. Each release may have multiple sprints, and each Scrum project may have multiple release cycles.
+- A repetitive sequence of meetings, events, and milestones.
+- The practice of testing and implementing new business rules, known as user stories, to ensure that parts of the work are released shortly after each sprint.
 
-<img src="https://www.guru99.com/images/11-2014/112714_1232_ScrumTestin1.jpg" alt="Papéis Metodologia Scrum">
+![Scrum Roles](https://www.guru99.com/images/11-2014/112714_1232_ScrumTestin1.jpg)
 
-### 1. Papéis no Scrum
+### 1. Roles in Scrum
 
 - Product Owner:
-  - Define as features do produto;
-  - Decide a data de lançamentos e features relacionadas;
-  - É responsável pela rentabilidade do produto;
-  - Pode aceitar ou rejeitar um resultado;
+  - Defines product features.
+  - Decides release dates and related features.
+  - Is responsible for the product's profitability.
+  - Can accept or reject a result.
 
 - Scrum Master:
-  - Organiza o time e verifica sua produtividade;
-  - Mantém a lista de bloqueios e remove barreiras no desenvolvimento;
-  - Coordena com todos os papéis e funções;
-  - Defente o time de interferências externas;
-  - Convida para o Scrum diário, review da sprint e planejamento de reuniões;
+  - Organizes the team and checks its productivity.
+  - Maintains the list of impediments and removes barriers in development.
+  - Coordinates with all roles and functions.
+  - Defends the team from external interference.
+  - Invites to daily Scrum, sprint review, and planning meetings.
 
-- O Time:
-  - Consiste geralmente de 5-9 membros;
-  - Inclui desenvolvedores, designers, testers, etc;
-  - O Time organiza e planeja o trabalho sozinhos;
-  - Tem o direito de fazer tudo dentro das demarcações do projeto para atingir o objetivo da sprint;
-  - Ativamente participa das cerimônias diárias
+- The Team:
+  - Typically consists of 5-9 members.
+  - Includes developers, designers, testers, etc.
+  - The team organizes and plans the work on its own.
+  - Has the authority to do everything within the project boundaries to achieve the sprint goal.
+  - Actively participates in daily ceremonies.
 
-### 2. Artefatos Scrum
+### 2. Scrum Artifacts
 
-<img src="https://www.guru99.com/images/2/scrum_testing_2.png" alt="Fluxograma Artefatos Scrum">
+![Scrum Artifacts](https://www.guru99.com/images/2/scrum_testing_2.png)
 
-Um processo Scrum, inclúi:
+A Scrum process includes:
 
-- Estórias de Usuários: São uma explicação curta das funcionalidades do sistema sob testes. Um exemplo para uma agência de seguros é - "Premium pode ser pago usando o sistema online";
-- Backlog do Produto: É uma coleção de estórias de usuários capturadas para um projeto Scrum. O P.O prepara e mantém este backlog. É priorizado pelo P.O, e qualquer um pode adicionar dados com sua aprovação;
-- Backlog de Lançamento: Um lançamento é um lapso temporal em que um número de iterações é completa. O P.O coordena com o Scrum Master para decidir quais estórias devem ser priorizadas em uma release. Estórias no backlog de lançamento são priorizadas para finalização em uma release;
-- Sprints: É um espaço de tempo determinado para finalização das histórias de usuário, decidida pelo P.O e time de desenvolvemento, geralmente 2-4 semanas;
-- Sprint Backlog: É um grupo de histórias de usuários a serem finalizadas em uma sprint. Durante o sprint backlog, o trabalho nunca é designado, e o time se habilita para um trabalho por si só. É de posse e administração do time enquanto o trabalho restante estimado é atualizado diariamente. É a lista de tasks que devem ser desenvolvidas em uma sprint;
-- Lista de Blocks: É uma lista de blocks e decisões que não foram realizadas, de posse de Scrum Master e atualizada diariamente;
-- Gráfico Burndown: Representa o progresso geral entre trabalho em desenvolvimento e trabalho completo através de todo o processo. Representa em forma de gráfico as histórias e features não finalizadas;
+- User Stories: Short explanations of system features under test. An example for an insurance agency is, "Premium can be paid using the online system."
+- Product Backlog: A collection of user stories captured for a Scrum project. The Product Owner prepares and maintains this backlog. It is prioritized by the Product Owner, and anyone can add items with their approval.
+- Release Backlog: A release is a time span in which a number of iterations are completed. The Product Owner coordinates with the Scrum Master to decide which user stories should be prioritized in a release. User stories in the release backlog are prioritized for completion in a release.
+- Sprints: A defined time frame for completing user stories, decided by the Product Owner and the development team, typically 2-4 weeks.
+- Sprint Backlog: A group of user stories to be completed in a sprint. During the sprint backlog, work is never assigned, and the team self-assigns tasks. It is owned and managed by the team, while remaining estimated work is updated daily. It is the list of tasks to be developed in a sprint.
+- Blockers List: A list of blocks and decisions not yet made, owned by the Scrum Master and updated daily.
+- Burndown Chart: Represents the overall progress between work in progress and work completed throughout the entire process. It graphically shows unfinished user stories and features.
 
-### 3. Cerimônias (Processos) em Scrum
+### 3. Ceremonies (Processes) in Scrum
 
-- Planejamento de Sprints: Uma sprint se inicia com o time importando estórias do Backlog de Lançamentos para o Backlog de Sprints. Os testers estimam o esforço para validar as diversas histórias no Sprint Backlog;
-- Scrum Diário: Apresentado pelo Scrum Master, dura cerca de 15 minutos. Durante o Scrum diário os membros irão discutir o trabalho completo no dia anterior, o trabalho planejado para o dia seguinte e dificuldades encontradas durante uma sprint. No decorrer da reunião diária o progresso de um time é rastreado;
-- Review da Sprint/Retrospectiva: Também apresentada pelo Scrum Master, dura entre 2-4 horas e discute o que o time desenvolveu na última sprint e que lições foram aprendidas;
+- Sprint Planning: A sprint begins with the team importing user stories from the Release Backlog into the Sprint Backlog. Testers estimate the effort to validate the various user stories in the Sprint Backlog.
+- Daily Scrum: Facilitated by the Scrum Master, it lasts about 15 minutes. During the Daily Scrum, team members discuss the work completed the previous day, planned work for the next day, and challenges encountered during a sprint. The team's progress is tracked during the daily meeting.
+- Sprint Review/Retrospective: Also facilitated by the Scrum Master, it lasts 2-4 hours and discusses what the team developed in the last sprint and what lessons were learned.
 
-## Papel do Tester no Scrum
+## Role of the Tester in Scrum
 
-**Não há papel ativo do tester no Processo Scrum.**
+**There is no active role for testers in the Scrum process.**
 
-Geralmente, os testes são desenvolvidos por um dev com o Teste Unitário. Enquanto o P.O é também frequentemente envolvido no processo de testes em cada sprint. Alguns projetos Scrum tem times de teste dedicados dependendo da natureza e complexibilidade do projeto.
+Usually, tests are developed by a developer with Unit Testing. The Product Owner is often involved in the testing process in each sprint. Some Scrum projects have dedicated testing teams depending on the nature and complexity of the project.
 
-## Atividades de Teste no Scrum
+## Testing Activities in Scrum
 
-- Planejamento de Sprints:
-  - Aqui o tester deve escolher uma estória de usuário do backlog de produto para testes.
-  - Como tester, deve decidir quantas horas (Estimativa de Esforço) levará para finalizar os testes para cada estória selecionada.
-  - Deve saber quais os objetivos da sprint.
-  - Contribuir para o proesso de priorização.
+- Sprint Planning:
+  - Here, the tester should choose a user story from the product backlog for testing.
+  - As a tester, they must decide how many hours (Effort Estimation) it will take to complete testing for each selected user story.
+  - They should know the sprint's objectives.
+  - Contribute to the prioritization process.
 
 - Sprints:
-  - Dão suporte a devs no teste unitário
-  - Com testes de histórias de usuário completos, a execução de teste é desenvolvida em laboratório onde dev e tester trabalham juntos. Defeitos são catalogados na ferramenta de Gerenciamento de defeitos que são verificados diariamente. Defeitos podem ser conferidos e analisados durante uma reunião Scrum. Quaisquer bugs são retestados tão logo corrigidos e implementados para teste.
-  - Enquanto tester, comparecer a todas as reuniões diárias para falar;
-  - Trazers quaisquer itens de backlog que não foram completos na sprint atual, para inserção na proxima sprint;
-  - Tester é resposável pelo desenvolvimento dos scripts de automação. Ele agenda as testagens automatizadas com o Sistema de Integração Contínuo (CI). Automatização recebe importância devido aos tempos de entrega curtos. Automatização de testes pode ser atingida utilizando diversas ferramentas pagas ou open-source disponíveis. Isto prova sua eficiência ao garantir que tudo que precisa ser testado esteja coberto. Cobertura de Testes Satisfatória pode ser atingida com uma comunicação proxima com o time.
-  - Revisão dos resultados da Automação no CI e envio de Relatórios para os Investidores.
-  - Execução de testes não funcionais para estórias de usuários aprovadas.
-  - Coordenação com cliente e P.O para definir critérios de aceite para os Testes de Aceite.
-  - No fim da Sprint, o tester também performa o UAT em alguns casos, e confirma a finalização dos testes para a sprint atual.
+  - Support developers in unit testing.
+  - With user story tests complete, the testing execution is done in a lab where the developer and tester work together. Defects are logged in the Defect Management tool, which is checked daily. Defects can be reviewed and discussed during a Scrum meeting. Any bugs are retested as soon as they are fixed and implemented for testing.
+  - As a tester, attend all daily meetings to provide input.
+  - Bring any backlog items not completed in the current sprint for inclusion in the next sprint.
+  - The tester is responsible for developing automation scripts. They schedule automated tests with the Continuous Integration (CI) system. Test automation is given importance due to short delivery times. Test automation can be achieved using various paid or open-source tools available. This proves its efficiency in ensuring that everything that needs to be tested is covered. Satisfactory test coverage can be achieved with close communication with the team.
+  - Review automation results in the CI and send reports to stakeholders.
+  - Execute non-functional tests for approved user stories.
+  - Coordinate with the client and Product Owner to define acceptance criteria for Acceptance Testing.
+  - At the end of the sprint, the tester may also perform User Acceptance Testing (UAT) in some cases and confirm the completion of testing for the current sprint.
 
-- Retrospectiva da Sprint:
-  - Enquanto tester, ira estabelecer o que deu errado e o que obteve sucesso na sprint atual.
-  - Identifica lições aprendidas e melhores práticas.
+- Sprint Retrospective:
+  - As a tester, establish what went wrong and what was successful in the current sprint.
+  - Identify lessons learned and best practices.
 
-## Relatório de Testes
+## Test Report
 
-Métricas de teste Scrum provém transparência e visibilidade para os investidores sobre o projeto. As métricas reportadas permitem que um time analise seu progresso e planeje estratégias futuras para melhoria do produto.
+Scrum testing metrics provide transparency and visibility for stakeholders about the project. The reported metrics allow a team to analyze their progress and plan future strategies for product improvement.
 
-Existem duas métricas frequentimente usadas para reportar:
+There are two metrics commonly used for reporting:
 
-### Gráfico Burn Down
+### Burn Down Chart
 
-Diariamente, o Scrum Master registra o trabalho restante estiamdo para a sprint atual. O que nada mais é do que o Burn Down, atualizado diariamente.
+Daily, the Scrum Master records the estimated remaining work for the current sprint, which is nothing but the Burn Down, updated daily.
 
-Este grafico provê visualização geral rápida do progresso no projeto, aqui, temos informações como o volume total de trabalho no projeto que precisa ser finalizado, volume de trabalho completo em cada sprint e etc.
+This chart provides a quick overall view of project progress, showing information such as the total volume of work in the project that needs to be completed, work completed in each sprint, and more.
 
-<img src="https://www.guru99.com/images/11-2014/112714_1232_ScrumTestin4.jpg" alt="Gráfico Burn Down">
+![Burn Down Chart](https://www.guru99.com/images/11-2014/112714_1232_ScrumTestin4.jpg)
 
-### Gráfico de Histórico de Velocidade
+### Velocity Chart
 
-Esta técnica prevê a velocidade do time em cada sprint, É um gráfico de barras que representa como o output do time mudou ao longo.
+This technique predicts the team's velocity in each sprint, represented as a bar chart showing how the team's output has changed over time.
 
-As métricas adicionais que podem ser úteis consistem na queima de cronograma, queima de orçamento, porcentagem do tema completo, estórias completas, estórias remanescentes, etc.
+Additional useful metrics include schedule burn, budget burn, percentage of theme completed, completed stories, remaining stories, etc.
